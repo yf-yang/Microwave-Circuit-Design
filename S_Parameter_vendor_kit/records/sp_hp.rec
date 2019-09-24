@@ -1,0 +1,2450 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0885_19920727</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00535_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00535_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00572_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00572_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00600_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-00600_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-01635_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-01635_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-21400_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=14mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30511_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=1V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30511_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30511_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30511_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30511_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30533_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=1V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30533_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30533_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30533_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-30533_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31011_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=1V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31011_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31011_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31011_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31011_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31033_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=1V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31033_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31033_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31033_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-31033_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41400_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41400_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41410_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41410_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41411_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41411_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41435_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41435_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41470_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41470_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41485_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41485_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41486_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41486_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=15mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_6_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=15mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_7_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41511_8_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=2.7V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=5V Ic=10</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_5_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=6V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_6_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=6V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_7_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41533_8_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41586_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-41586_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42000_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42000_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42010_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42010_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42035_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42035_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42070_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42070_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42085_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42085_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42086_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-42086_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60100_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=0.5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60100_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=3mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60111_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=3V Ic=0.4mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60111_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=6V Ic=2.5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60200_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=1mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60200_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60211_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=3V Ic=0.8mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60211_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=6V Ic=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60510_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60510_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60570_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60570_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60585_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60585_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60586_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-60586_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=8V Ic=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64000_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=12V Ic=110mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64000_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=16V Ic=110mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64020_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=16V Ic=110mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64023_1_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=10V Ic=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64023_2_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=10V Ic=110mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64023_3_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=10V Ic=150mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_AT-64023_4_19921201</NAME>
+    <DESCRIPTION>Bjt: Vce=16V Ic=110mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10100_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10100_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10135_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10136_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=1V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10136_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=1V Id=5mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10136_3_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=1V Id=2mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10136_4_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10170_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10170_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10235_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10236_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10735_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10735_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10736_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-10736_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13036_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13100_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13135_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13136_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13170_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13284_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13284_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=40mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13335_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13336_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13484_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13484_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=40mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13735_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13735_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=4V Id=40mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13736_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-13786_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=40mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21100_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21100_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21170_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21170_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21186_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21186_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=2V Id=15mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-21186_3_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=70mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25100_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25100_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25170_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25570_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25570_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-257335_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-25735_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26100_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26100_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=30mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26150_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26350_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26550_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26550_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=30mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26835_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26835_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=30mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26836_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26836_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=30mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26884_1_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=3V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-26884_2_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=5V Id=30mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35076_1_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35076_2_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35176_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35376_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35576_1_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-35576_2_19921201</NAME>
+    <DESCRIPTION>Hemt: Vds=1.5V Id=20mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-36077_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=1.5V Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-44100_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=500mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-44101_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=500mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-45100_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=250mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-45101_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=250mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-45171_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=250mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-46100_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=125mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-46101_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=125mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_ATF-46171_19921201</NAME>
+    <DESCRIPTION>Fet: Vds=9V Id=125mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_1_19921201</NAME>
+    <DESCRIPTION>Attenuator: Minimum setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_2_19921201</NAME>
+    <DESCRIPTION>Attenuator: 5dB setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_3_19921201</NAME>
+    <DESCRIPTION>Attenuator: 10dB setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_4_19921201</NAME>
+    <DESCRIPTION>Attenuator: 15dB setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_5_19921201</NAME>
+    <DESCRIPTION>Attenuator: 20dB setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_6_19921201</NAME>
+    <DESCRIPTION>Attenuator: 25dB setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-1001_7_19921201</NAME>
+    <DESCRIPTION>Attenuator: Maximum setting</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-5008_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vdd=5V Idd=150mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-5009_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd1=Vd2=4.5V Vd3=Vd4=7.0V Id1+Id2=180mA Vg1=Vg2 Id3+Id4=400mA Vg3=Vg4</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-5022_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vdd=7V Id=150mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HMMC-5026_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vdd=7V Id=150mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-3486_19921201</NAME>
+    <DESCRIPTION>Diode: Zero bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5314_1_19921201</NAME>
+    <DESCRIPTION>Diode:1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5314_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5318_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5318_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5320_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5320_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5334_1_19921201</NAME>
+    <DESCRIPTION>Diode:1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5334_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5338_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5338_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5340_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSCH-5340_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-0005_19921201</NAME>
+    <DESCRIPTION>Diode: Zero bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-2850_19921201</NAME>
+    <DESCRIPTION>Diode: Zero bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-8101_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-8101_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA External Bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-8202_1_19921201</NAME>
+    <DESCRIPTION>Diode: 1mA self-bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_HSMS-8202_2_19921201</NAME>
+    <DESCRIPTION>Diode: 20mA external bias</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-01100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-01170_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-02100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-02170_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-02184_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-02186_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-03100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=12mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-03170_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=12mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-03184_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=10mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_INA-10386_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=6V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-61000_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=5V Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-61100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=5V Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-62100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=8V Id=65mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-63100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=10V Id=140mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-64135_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=10V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-65100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vds=10V Id=158mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-66100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=8V Id=200mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-86576_1_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=5V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGA-86576_2_19921201</NAME>
+    <DESCRIPTION>Amplifier: Vd=7V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-70008_1_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (off)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-70008_2_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (on)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-70018_1_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (off)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-70018_2_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (on)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-71008_1_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (off)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-71008_2_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (on)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-71018_1_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (off)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MGS-71018_2_19921201</NAME>
+    <DESCRIPTION>SPDT switch: Vc=-5V (on)</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0135_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0170_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0185_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0186_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0200_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0204_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0235_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0270_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0285_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0286_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=25mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0300_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0304_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0311_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0335_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0370_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0385_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0386_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0400_1_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0400_2_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=90mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0404_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0420_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=90mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0435_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0470_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0485_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0486_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=50mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0500_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=165mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0504_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0505_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=80mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0520_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=165mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0600_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0611_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0635_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0670_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0685_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0686_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=16mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0700_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0711_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0735_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0770_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0785_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0786_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=22mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0800_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0835_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0870_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0885_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0886_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=36mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0900_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0910_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-0986_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1000_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=325mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1023_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=325mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1100_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1104_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1105_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1110_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-1120_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=60mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-2011_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=32mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-2035_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=32mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-2085_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=32mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-2086_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=32mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-2111_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=29mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-3111_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=29mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-3135_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=29mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-3185_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=29mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-3186_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=29mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA-9970_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=35mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sp_hp_MSA0104_19921201</NAME>
+    <DESCRIPTION>Amplifier: Id=17mA</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>sp_hp</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NO_LAYOUT</PLACEMENT>
+ </COMPONENT>
+</COMPONENTS>

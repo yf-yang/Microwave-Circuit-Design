@@ -1,0 +1,5 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE 3_lib 3_lib
+ASSIGN 3_lib libMode shared
+INCLUDE ../RF_Transistors_vendor_kit/lib.defs
+INCLUDE ../S_Parameter_vendor_kit/lib.defs

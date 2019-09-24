@@ -1,0 +1,40 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="3_lib:spmod_LNA:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+define DA_SSMatch1_spmod_LNA ( P1  P2 ) 
+parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
+MTEE:Tee1  P1 N__1 N__3 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
+MLEF2:TL1  N__3 Subst="MSub1" W=1.915 mm L=6.923 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL2  N__1 P2 Subst="MSub1" W=1.915 mm L=22.509 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+end DA_SSMatch1_spmod_LNA
+define DA_SSMatch2_spmod_LNA ( P1  P2 ) 
+parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
+MTEE:Tee1  P1 N__3 N__0 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
+MLEF2:TL1  N__0 Subst="MSub1" W=1.915 mm L=13.891 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL2  N__3 P2 Subst="MSub1" W=1.915 mm L=33.792 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+end DA_SSMatch2_spmod_LNA
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.1 GHz Stop=1.8 GHz Step=0.05 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term2  N__6 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term1  N__2 0 Num=1 Z=50 Ohm Noise=yes 
+
+;#@# autodisplay="S_Params_Quad_dB_Smith"
+#uselib "ckt" , "S2P"
+S2P:SNP1  N__3 N__1 0 Lib="sp_hp99" File="sp_hp_AT-32032_3_19980529" Temp=27.0 
+aele Zin1=zin(S11,PortZ1);
+model MSub1 MSUB H=1 mm Er=4.4 Mur=1 Cond=5.88E+7 Hu=1.0e+033 mm T=0.03 mm TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+aele StabFact1=stab_fact(S);
+aele Zin2=zin(S22,PortZ2);
+DA_SSMatch1_spmod_LNA:DA_SSMatch1  N__2 N__3 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=40.616-j*15.951 Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
+DA_SSMatch2_spmod_LNA:DA_SSMatch2  N__6 N__1 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=103.423-j*46.252 Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
