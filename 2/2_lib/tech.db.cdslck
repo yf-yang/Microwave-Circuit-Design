@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ThinkPad
+HostName                       Director-Y
+ProcessIdentifier              13516
+ProcessCreationTime_UTC        1568799582
+ProcessCreationTime_Readable   09/18/19 17:39:42 ?D1¨²¡À¨º¡Á?¨º¡À??
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\è¯¾ä»¶\å¤§å››ä¸Š\å¾®æ³¢\2\2_lib\tech.db.cdslck
+TimeEditLocked                 09/18/19 17:41:35 ?D1¨²¡À¨º¡Á?¨º¡À??
