@@ -4,7 +4,9 @@ hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
 Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
 
 
-SP SP1[1] <3_lib:spmod_LNA:schematic>   freq=(1.1 GHz->1.8 GHz)
+OPTIM Optim1[1] <3_lib:spmod_LNA:schematic>  optIter=(0->500)
+
+SP Optim1[1].SP1[0] <3_lib:spmod_LNA:schematic>  optIter=0  freq=(100 MHz->5 GHz)
 .Warning detected by hpeesofsim during SP analysis `SP1'.
     The simulation temperature (25.0 C) is not the same as the IEEE standard
     noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
@@ -13,8 +15,2284 @@ SP SP1[1] <3_lib:spmod_LNA:schematic>   freq=(1.1 GHz->1.8 GHz)
     The `Temp' parameter on the Options item can be set to 16.85 C to
     eliminate this warning message.
 
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.Z_All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.NFmin':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+.................................................
+
+SP Optim1[1].SP2[0] <3_lib:spmod_LNA:schematic>  optIter=0  freq=(1.1 GHz->1.8 GHz)
+.Warning detected by hpeesofsim during SP analysis `SP2'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP2'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
 ..............
+Iteration/Trial #0:
+  CurrentEF: 0.277150898049841
+  Optimization variables:
+    l = 7
+    l1 = 6.923
+    l2 = 22.509
+    l3 = 13.891
+    l4 = 33.792
+    w = 1.8825
+    w12 = 1.8825
+    w13 = 1.8825
+    w21 = 1.8825
+    w23 = 1.8825
+
+SP Optim1[1].SP1[1] <3_lib:spmod_LNA:schematic>  optIter=1  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[1] <3_lib:spmod_LNA:schematic>  optIter=1  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #1:
+  CurrentEF: 0.0881731211113445
+  Optimization variables:
+    l = 6.25301
+    l1 = 6.06607
+    l2 = 21.6944
+    l3 = 14.5095
+    l4 = 33.5299
+    w = 2.08844
+    w12 = 2.35173
+    w13 = 1.37469
+    w21 = 1.4462
+    w23 = 2.14628
+
+SP Optim1[1].SP1[2] <3_lib:spmod_LNA:schematic>  optIter=2  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[2] <3_lib:spmod_LNA:schematic>  optIter=2  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #2:
+  CurrentEF: 0.0408387927639185
+  Optimization variables:
+    l = 5.71151
+    l1 = 5.47935
+    l2 = 21.1724
+    l3 = 14.2242
+    l4 = 31.9322
+    w = 2.22029
+    w12 = 1.92107
+    w13 = 1.09387
+    w21 = 1.52039
+    w23 = 2.02336
+
+SP Optim1[1].SP1[3] <3_lib:spmod_LNA:schematic>  optIter=3  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[3] <3_lib:spmod_LNA:schematic>  optIter=3  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #3:
+  CurrentEF: 0.0308905842526057
+  Optimization variables:
+    l = 5.44668
+    l1 = 5.37802
+    l2 = 20.5333
+    l3 = 14.0749
+    l4 = 31.3271
+    w = 2.27662
+    w12 = 2.13621
+    w13 = 1.0534
+    w21 = 1.48211
+    w23 = 1.97267
+
+SP Optim1[1].SP1[4] <3_lib:spmod_LNA:schematic>  optIter=4  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[4] <3_lib:spmod_LNA:schematic>  optIter=4  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #4:
+  CurrentEF: 0.0181986137297739
+  Optimization variables:
+    l = 4.70688
+    l1 = 5.11272
+    l2 = 19.031
+    l3 = 14.1547
+    l4 = 30.1245
+    w = 2.45194
+    w12 = 2.20766
+    w13 = 958.203e-03
+    w21 = 991.994e-03
+    w23 = 2.05296
+
+SP Optim1[1].SP1[5] <3_lib:spmod_LNA:schematic>  optIter=5  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[5] <3_lib:spmod_LNA:schematic>  optIter=5  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #5:
+  CurrentEF: 0.0159219162812344
+  Optimization variables:
+    l = 4.6642
+    l1 = 5.07591
+    l2 = 18.8353
+    l3 = 14.0838
+    l4 = 29.9496
+    w = 2.46714
+    w12 = 2.01031
+    w13 = 945.105e-03
+    w21 = 980.332e-03
+    w23 = 2.03721
+
+SP Optim1[1].SP1[6] <3_lib:spmod_LNA:schematic>  optIter=6  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[6] <3_lib:spmod_LNA:schematic>  optIter=6  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #6:
+  CurrentEF: 0.0128628796411302
+  Optimization variables:
+    l = 4.08814
+    l1 = 4.80332
+    l2 = 16.6656
+    l3 = 13.6004
+    l4 = 28.4267
+    w = 2.67994
+    w12 = 1.91089
+    w13 = 855.063e-03
+    w21 = 692.643e-03
+    w23 = 1.94193
+
+SP Optim1[1].SP1[7] <3_lib:spmod_LNA:schematic>  optIter=7  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[7] <3_lib:spmod_LNA:schematic>  optIter=7  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #7:
+  CurrentEF: 0.00913677305084438
+  Optimization variables:
+    l = 4.02335
+    l1 = 5.2997
+    l2 = 15.6473
+    l3 = 12.3712
+    l4 = 28.0687
+    w = 2.73512
+    w12 = 1.68918
+    w13 = 1.02038
+    w21 = 851.796e-03
+    w23 = 1.56699
+
+SP Optim1[1].SP1[8] <3_lib:spmod_LNA:schematic>  optIter=8  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[8] <3_lib:spmod_LNA:schematic>  optIter=8  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #8:
+  CurrentEF: 0.00843500471298115
+  Optimization variables:
+    l = 4.01739
+    l1 = 5.28579
+    l2 = 15.1378
+    l3 = 11.9953
+    l4 = 28.0287
+    w = 2.8222
+    w12 = 1.6739
+    w13 = 1.01691
+    w21 = 723.607e-03
+    w23 = 1.48309
+
+SP Optim1[1].SP1[9] <3_lib:spmod_LNA:schematic>  optIter=9  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[9] <3_lib:spmod_LNA:schematic>  optIter=9  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #9:
+  CurrentEF: 0.00808953008607403
+  Optimization variables:
+    l = 4.0661
+    l1 = 5.43969
+    l2 = 15.0158
+    l3 = 11.6734
+    l4 = 28.1458
+    w = 2.85677
+    w12 = 1.71886
+    w13 = 1.07686
+    w21 = 702.57e-03
+    w23 = 1.39938
+
+SP Optim1[1].SP1[10] <3_lib:spmod_LNA:schematic>  optIter=10  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[10] <3_lib:spmod_LNA:schematic>  optIter=10  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #10:
+  CurrentEF: 0.00806869628399644
+  Optimization variables:
+    l = 4.07475
+    l1 = 5.46986
+    l2 = 15.0084
+    l3 = 11.6271
+    l4 = 28.1683
+    w = 2.86117
+    w12 = 1.72865
+    w13 = 1.08905
+    w21 = 700.663e-03
+    w23 = 1.38744
+
+SP Optim1[1].SP1[11] <3_lib:spmod_LNA:schematic>  optIter=11  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[11] <3_lib:spmod_LNA:schematic>  optIter=11  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #11:
+  CurrentEF: 0.00788567223702925
+  Optimization variables:
+    l = 4.06271
+    l1 = 5.58441
+    l2 = 15.0121
+    l3 = 11.6577
+    l4 = 28.1409
+    w = 2.85694
+    w12 = 1.81124
+    w13 = 1.13769
+    w21 = 710.002e-03
+    w23 = 1.38948
+
+SP Optim1[1].SP1[12] <3_lib:spmod_LNA:schematic>  optIter=12  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[12] <3_lib:spmod_LNA:schematic>  optIter=12  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #12:
+  CurrentEF: 0.00786019708192243
+  Optimization variables:
+    l = 4.07466
+    l1 = 5.62679
+    l2 = 15.0038
+    l3 = 11.6182
+    l4 = 28.1731
+    w = 2.86369
+    w12 = 1.79901
+    w13 = 1.15647
+    w21 = 705.552e-03
+    w23 = 1.37746
+
+SP Optim1[1].SP1[13] <3_lib:spmod_LNA:schematic>  optIter=13  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[13] <3_lib:spmod_LNA:schematic>  optIter=13  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #13:
+  CurrentEF: 0.00778459488384522
+  Optimization variables:
+    l = 4.09627
+    l1 = 5.76362
+    l2 = 15.0009
+    l3 = 11.5873
+    l4 = 28.2352
+    w = 2.87618
+    w12 = 1.78017
+    w13 = 1.2195
+    w21 = 697.389e-03
+    w23 = 1.36113
+
+SP Optim1[1].SP1[14] <3_lib:spmod_LNA:schematic>  optIter=14  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[14] <3_lib:spmod_LNA:schematic>  optIter=14  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #14:
+  CurrentEF: 0.00765457746163981
+  Optimization variables:
+    l = 4.13058
+    l1 = 6.06644
+    l2 = 15.0311
+    l3 = 11.6041
+    l4 = 28.3424
+    w = 2.89551
+    w12 = 1.75009
+    w13 = 1.36794
+    w21 = 684.548e-03
+    w23 = 1.34511
+
+SP Optim1[1].SP1[15] <3_lib:spmod_LNA:schematic>  optIter=15  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[15] <3_lib:spmod_LNA:schematic>  optIter=15  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #15:
+  CurrentEF: 0.0076189773711226
+  Optimization variables:
+    l = 4.14511
+    l1 = 6.24091
+    l2 = 15.0593
+    l3 = 11.628
+    l4 = 28.3918
+    w = 2.90386
+    w12 = 1.74704
+    w13 = 1.45826
+    w21 = 679.902e-03
+    w23 = 1.34072
+
+SP Optim1[1].SP1[16] <3_lib:spmod_LNA:schematic>  optIter=16  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[16] <3_lib:spmod_LNA:schematic>  optIter=16  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #16:
+  CurrentEF: 0.00759625449909713
+  Optimization variables:
+    l = 4.15158
+    l1 = 6.37116
+    l2 = 15.0802
+    l3 = 11.6544
+    l4 = 28.4176
+    w = 2.90875
+    w12 = 1.75053
+    w13 = 1.52811
+    w21 = 678.427e-03
+    w23 = 1.34122
+
+SP Optim1[1].SP1[17] <3_lib:spmod_LNA:schematic>  optIter=17  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[17] <3_lib:spmod_LNA:schematic>  optIter=17  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #17:
+  CurrentEF: 0.007556686837618
+  Optimization variables:
+    l = 4.15004
+    l1 = 6.52994
+    l2 = 15.0965
+    l3 = 11.7124
+    l4 = 28.4236
+    w = 2.91273
+    w12 = 1.75863
+    w13 = 1.61697
+    w21 = 679.998e-03
+    w23 = 1.35274
+
+SP Optim1[1].SP1[18] <3_lib:spmod_LNA:schematic>  optIter=18  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[18] <3_lib:spmod_LNA:schematic>  optIter=18  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #18:
+  CurrentEF: 0.00675312041996996
+  Optimization variables:
+    l = 4.01268
+    l1 = 6.32673
+    l2 = 15.0402
+    l3 = 12.4122
+    l4 = 28.0363
+    w = 2.86479
+    w12 = 1.6997
+    w13 = 1.53612
+    w21 = 744.956e-03
+    w23 = 1.63417
+
+SP Optim1[1].SP1[19] <3_lib:spmod_LNA:schematic>  optIter=19  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[19] <3_lib:spmod_LNA:schematic>  optIter=19  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #19:
+  CurrentEF: 0.00668840789236444
+  Optimization variables:
+    l = 4.02275
+    l1 = 6.50775
+    l2 = 15.01
+    l3 = 12.363
+    l4 = 28.0686
+    w = 2.87751
+    w12 = 1.72327
+    w13 = 1.63378
+    w21 = 737.713e-03
+    w23 = 1.60702
+
+SP Optim1[1].SP1[20] <3_lib:spmod_LNA:schematic>  optIter=20  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[20] <3_lib:spmod_LNA:schematic>  optIter=20  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #20:
+  CurrentEF: 0.0066186568635712
+  Optimization variables:
+    l = 4.01171
+    l1 = 6.6688
+    l2 = 15.0201
+    l3 = 12.5443
+    l4 = 28.0399
+    w = 2.87715
+    w12 = 1.72836
+    w13 = 1.73436
+    w21 = 751.485e-03
+    w23 = 1.67285
+
+SP Optim1[1].SP1[21] <3_lib:spmod_LNA:schematic>  optIter=21  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[21] <3_lib:spmod_LNA:schematic>  optIter=21  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #21:
+  CurrentEF: 0.00661116123937431
+  Optimization variables:
+    l = 4.01131
+    l1 = 6.60772
+    l2 = 15.0242
+    l3 = 12.5334
+    l4 = 28.0377
+    w = 2.87555
+    w12 = 1.7208
+    w13 = 1.69959
+    w21 = 752.887e-03
+    w23 = 1.67141
+
+SP Optim1[1].SP1[22] <3_lib:spmod_LNA:schematic>  optIter=22  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[22] <3_lib:spmod_LNA:schematic>  optIter=22  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #22:
+  CurrentEF: 0.0065990063675727
+  Optimization variables:
+    l = 4.01199
+    l1 = 6.68314
+    l2 = 15.0171
+    l3 = 12.5875
+    l4 = 28.0417
+    w = 2.88444
+    w12 = 1.72172
+    w13 = 1.75186
+    w21 = 762.562e-03
+    w23 = 1.69273
+
+SP Optim1[1].SP1[23] <3_lib:spmod_LNA:schematic>  optIter=23  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[23] <3_lib:spmod_LNA:schematic>  optIter=23  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #23:
+  CurrentEF: 0.00657833400114657
+  Optimization variables:
+    l = 4.02237
+    l1 = 6.70058
+    l2 = 15.0017
+    l3 = 12.6617
+    l4 = 28.0745
+    w = 2.91407
+    w12 = 1.71082
+    w13 = 1.79331
+    w21 = 790.38e-03
+    w23 = 1.73571
+
+SP Optim1[1].SP1[24] <3_lib:spmod_LNA:schematic>  optIter=24  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[24] <3_lib:spmod_LNA:schematic>  optIter=24  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #24:
+  CurrentEF: 0.00657490813014157
+  Optimization variables:
+    l = 4.02865
+    l1 = 6.68226
+    l2 = 15
+    l3 = 12.6878
+    l4 = 28.0926
+    w = 2.92557
+    w12 = 1.70708
+    w13 = 1.79639
+    w21 = 800.676e-03
+    w23 = 1.75389
+
+SP Optim1[1].SP1[25] <3_lib:spmod_LNA:schematic>  optIter=25  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[25] <3_lib:spmod_LNA:schematic>  optIter=25  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #25:
+  CurrentEF: 0.00652178986076608
+  Optimization variables:
+    l = 4.03136
+    l1 = 6.60522
+    l2 = 15.0001
+    l3 = 12.6984
+    l4 = 28.1
+    w = 2.95418
+    w12 = 1.70638
+    w13 = 1.77801
+    w21 = 804.218e-03
+    w23 = 1.77916
+
+SP Optim1[1].SP1[26] <3_lib:spmod_LNA:schematic>  optIter=26  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[26] <3_lib:spmod_LNA:schematic>  optIter=26  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #26:
+  CurrentEF: 0.00651697161236764
+  Optimization variables:
+    l = 4.02593
+    l1 = 6.60739
+    l2 = 15.0006
+    l3 = 12.681
+    l4 = 28.0839
+    w = 2.9466
+    w12 = 1.70636
+    w13 = 1.76804
+    w21 = 794.514e-03
+    w23 = 1.7662
+
+SP Optim1[1].SP1[27] <3_lib:spmod_LNA:schematic>  optIter=27  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[27] <3_lib:spmod_LNA:schematic>  optIter=27  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #27:
+  CurrentEF: 0.00647079776407452
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.54266
+    l2 = 15.0011
+    l3 = 12.5491
+    l4 = 28.0797
+    w = 2.96778
+    w12 = 1.70636
+    w13 = 1.76582
+    w21 = 800.005e-03
+    w23 = 1.78016
+
+SP Optim1[1].SP1[28] <3_lib:spmod_LNA:schematic>  optIter=28  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[28] <3_lib:spmod_LNA:schematic>  optIter=28  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #28:
+  CurrentEF: 0.00646458345026411
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.51635
+    l2 = 15.0009
+    l3 = 12.5602
+    l4 = 28.0797
+    w = 2.97044
+    w12 = 1.72304
+    w13 = 1.76707
+    w21 = 804.183e-03
+    w23 = 1.79433
+
+SP Optim1[1].SP1[29] <3_lib:spmod_LNA:schematic>  optIter=29  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[29] <3_lib:spmod_LNA:schematic>  optIter=29  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #29:
+  CurrentEF: 0.00643394622177532
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.29674
+    l2 = 15.0002
+    l3 = 12.6454
+    l4 = 28.0797
+    w = 2.98721
+    w12 = 1.73292
+    w13 = 1.77513
+    w21 = 826.933e-03
+    w23 = 1.90828
+
+SP Optim1[1].SP1[30] <3_lib:spmod_LNA:schematic>  optIter=30  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[30] <3_lib:spmod_LNA:schematic>  optIter=30  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #30:
+  CurrentEF: 0.00642839371621124
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.28328
+    l2 = 15.0002
+    l3 = 12.6474
+    l4 = 28.0797
+    w = 2.98798
+    w12 = 1.7168
+    w13 = 1.77665
+    w21 = 827.1e-03
+    w23 = 1.91452
+
+SP Optim1[1].SP1[31] <3_lib:spmod_LNA:schematic>  optIter=31  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[31] <3_lib:spmod_LNA:schematic>  optIter=31  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #31:
+  CurrentEF: 0.00640024681040971
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.34577
+    l2 = 15.0002
+    l3 = 12.521
+    l4 = 28.0797
+    w = 2.99981
+    w12 = 1.71723
+    w13 = 1.79447
+    w21 = 827.182e-03
+    w23 = 1.91479
+
+SP Optim1[1].SP1[32] <3_lib:spmod_LNA:schematic>  optIter=32  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[32] <3_lib:spmod_LNA:schematic>  optIter=32  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #32:
+  CurrentEF: 0.00639830929521269
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.34415
+    l2 = 15.0002
+    l3 = 12.5109
+    l4 = 28.0797
+    w = 2.99981
+    w12 = 1.71042
+    w13 = 1.80111
+    w21 = 826.933e-03
+    w23 = 1.91524
+
+SP Optim1[1].SP1[33] <3_lib:spmod_LNA:schematic>  optIter=33  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[33] <3_lib:spmod_LNA:schematic>  optIter=33  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #33:
+  CurrentEF: 0.00639257725862664
+  Optimization variables:
+    l = 4.02452
+    l1 = 6.34382
+    l2 = 15.0001
+    l3 = 12.3825
+    l4 = 28.0797
+    w = 2.99982
+    w12 = 1.70836
+    w13 = 1.82091
+    w21 = 818.431e-03
+    w23 = 1.93425
+
+SP Optim1[1].SP1[34] <3_lib:spmod_LNA:schematic>  optIter=34  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[34] <3_lib:spmod_LNA:schematic>  optIter=34  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #34:
+  CurrentEF: 0.00638987615620589
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.33192
+    l2 = 15.0001
+    l3 = 12.3177
+    l4 = 28.0797
+    w = 2.99985
+    w12 = 1.70079
+    w13 = 1.84917
+    w21 = 821.041e-03
+    w23 = 1.92784
+
+SP Optim1[1].SP1[35] <3_lib:spmod_LNA:schematic>  optIter=35  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[35] <3_lib:spmod_LNA:schematic>  optIter=35  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #35:
+  CurrentEF: 0.00638798474893181
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.32652
+    l2 = 15.0001
+    l3 = 12.2953
+    l4 = 28.0797
+    w = 2.99986
+    w12 = 1.70799
+    w13 = 1.85602
+    w21 = 821.792e-03
+    w23 = 1.92418
+
+SP Optim1[1].SP1[36] <3_lib:spmod_LNA:schematic>  optIter=36  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[36] <3_lib:spmod_LNA:schematic>  optIter=36  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #36:
+  CurrentEF: 0.00638153711838312
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.26212
+    l2 = 15.0001
+    l3 = 12.2956
+    l4 = 28.0797
+    w = 2.99986
+    w12 = 1.71105
+    w13 = 1.87764
+    w21 = 815.384e-03
+    w23 = 1.94679
+
+SP Optim1[1].SP1[37] <3_lib:spmod_LNA:schematic>  optIter=37  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[37] <3_lib:spmod_LNA:schematic>  optIter=37  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #37:
+  CurrentEF: 0.0063798241979325
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.25328
+    l2 = 15.0001
+    l3 = 12.2877
+    l4 = 28.0798
+    w = 2.99987
+    w12 = 1.71499
+    w13 = 1.88113
+    w21 = 819.64e-03
+    w23 = 1.94833
+
+SP Optim1[1].SP1[38] <3_lib:spmod_LNA:schematic>  optIter=38  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[38] <3_lib:spmod_LNA:schematic>  optIter=38  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #38:
+  CurrentEF: 0.00637366934965525
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.1871
+    l2 = 15.0001
+    l3 = 12.2848
+    l4 = 28.0798
+    w = 2.99987
+    w12 = 1.71702
+    w13 = 1.90166
+    w21 = 821.576e-03
+    w23 = 1.96873
+
+SP Optim1[1].SP1[39] <3_lib:spmod_LNA:schematic>  optIter=39  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[39] <3_lib:spmod_LNA:schematic>  optIter=39  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #39:
+  CurrentEF: 0.00637205236272248
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.17219
+    l2 = 15.0001
+    l3 = 12.2704
+    l4 = 28.0798
+    w = 2.99988
+    w12 = 1.7081
+    w13 = 1.90942
+    w21 = 824.905e-03
+    w23 = 1.97162
+
+SP Optim1[1].SP1[40] <3_lib:spmod_LNA:schematic>  optIter=40  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[40] <3_lib:spmod_LNA:schematic>  optIter=40  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #40:
+  CurrentEF: 0.00636690396254197
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.12609
+    l2 = 15
+    l3 = 12.2263
+    l4 = 28.0798
+    w = 2.99991
+    w12 = 1.71218
+    w13 = 1.93906
+    w21 = 833.993e-03
+    w23 = 1.98427
+
+SP Optim1[1].SP1[41] <3_lib:spmod_LNA:schematic>  optIter=41  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[41] <3_lib:spmod_LNA:schematic>  optIter=41  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #41:
+  CurrentEF: 0.00636524579444659
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.08972
+    l2 = 15
+    l3 = 12.1931
+    l4 = 28.0798
+    w = 2.99993
+    w12 = 1.71269
+    w13 = 1.96198
+    w21 = 840.313e-03
+    w23 = 1.99461
+
+SP Optim1[1].SP1[42] <3_lib:spmod_LNA:schematic>  optIter=42  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[42] <3_lib:spmod_LNA:schematic>  optIter=42  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #42:
+  CurrentEF: 0.00636221651099804
+  Optimization variables:
+    l = 4.02453
+    l1 = 6.01247
+    l2 = 15
+    l3 = 12.1289
+    l4 = 28.0798
+    w = 2.99996
+    w12 = 1.71344
+    w13 = 2.01046
+    w21 = 849.943e-03
+    w23 = 2.019
+
+SP Optim1[1].SP1[43] <3_lib:spmod_LNA:schematic>  optIter=43  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[43] <3_lib:spmod_LNA:schematic>  optIter=43  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #43:
+  CurrentEF: 0.00633405867332398
+  Optimization variables:
+    l = 4.02454
+    l1 = 5.40189
+    l2 = 15.0004
+    l3 = 11.677
+    l4 = 28.0798
+    w = 2.99987
+    w12 = 1.71882
+    w13 = 2.4023
+    w21 = 894.711e-03
+    w23 = 2.23616
+
+SP Optim1[1].SP1[44] <3_lib:spmod_LNA:schematic>  optIter=44  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[44] <3_lib:spmod_LNA:schematic>  optIter=44  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #44:
+  CurrentEF: 0.00631254341328649
+  Optimization variables:
+    l = 4.02454
+    l1 = 5.63365
+    l2 = 15.0001
+    l3 = 11.8717
+    l4 = 28.0798
+    w = 2.99998
+    w12 = 1.71528
+    w13 = 2.24762
+    w21 = 860.036e-03
+    w23 = 2.16173
+
+SP Optim1[1].SP1[45] <3_lib:spmod_LNA:schematic>  optIter=45  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[45] <3_lib:spmod_LNA:schematic>  optIter=45  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #45:
+  CurrentEF: 0.00623598806186501
+  Optimization variables:
+    l = 4.02454
+    l1 = 5.09226
+    l2 = 15.001
+    l3 = 11.5362
+    l4 = 28.0798
+    w = 2.99961
+    w12 = 1.71912
+    w13 = 2.59572
+    w21 = 854.094e-03
+    w23 = 2.38333
+
+SP Optim1[1].SP1[46] <3_lib:spmod_LNA:schematic>  optIter=46  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[46] <3_lib:spmod_LNA:schematic>  optIter=46  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #46:
+  CurrentEF: 0.00621822548834495
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.93235
+    l2 = 15.0014
+    l3 = 11.4322
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.72087
+    w13 = 2.70205
+    w21 = 855.711e-03
+    w23 = 2.44874
+
+SP Optim1[1].SP1[47] <3_lib:spmod_LNA:schematic>  optIter=47  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[47] <3_lib:spmod_LNA:schematic>  optIter=47  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #47:
+  CurrentEF: 0.00621198285891505
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.88508
+    l2 = 15.0014
+    l3 = 11.4306
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73884
+    w13 = 2.7035
+    w21 = 856.65e-03
+    w23 = 2.42603
+
+SP Optim1[1].SP1[48] <3_lib:spmod_LNA:schematic>  optIter=48  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[48] <3_lib:spmod_LNA:schematic>  optIter=48  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #48:
+  CurrentEF: 0.00620853780118683
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.88046
+    l2 = 15.0014
+    l3 = 11.4489
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73547
+    w13 = 2.70374
+    w21 = 856.677e-03
+    w23 = 2.42622
+
+SP Optim1[1].SP1[49] <3_lib:spmod_LNA:schematic>  optIter=49  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[49] <3_lib:spmod_LNA:schematic>  optIter=49  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #49:
+  CurrentEF: 0.0062023346994934
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.82651
+    l2 = 15.0014
+    l3 = 11.4608
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73231
+    w13 = 2.7306
+    w21 = 856.295e-03
+    w23 = 2.40133
+
+SP Optim1[1].SP1[50] <3_lib:spmod_LNA:schematic>  optIter=50  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[50] <3_lib:spmod_LNA:schematic>  optIter=50  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #50:
+  CurrentEF: 0.00620137293450631
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.80658
+    l2 = 15.0014
+    l3 = 11.4808
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73087
+    w13 = 2.73271
+    w21 = 854.874e-03
+    w23 = 2.4017
+
+SP Optim1[1].SP1[51] <3_lib:spmod_LNA:schematic>  optIter=51  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[51] <3_lib:spmod_LNA:schematic>  optIter=51  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #51:
+  CurrentEF: 0.00619613658063303
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.76242
+    l2 = 15.0014
+    l3 = 11.4761
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73173
+    w13 = 2.75988
+    w21 = 855.17e-03
+    w23 = 2.40168
+
+SP Optim1[1].SP1[52] <3_lib:spmod_LNA:schematic>  optIter=52  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[52] <3_lib:spmod_LNA:schematic>  optIter=52  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #52:
+  CurrentEF: 0.0061902396112555
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.71707
+    l2 = 15.0014
+    l3 = 11.4672
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73511
+    w13 = 2.78826
+    w21 = 855.434e-03
+    w23 = 2.40178
+
+SP Optim1[1].SP1[53] <3_lib:spmod_LNA:schematic>  optIter=53  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[53] <3_lib:spmod_LNA:schematic>  optIter=53  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #53:
+  CurrentEF: 0.00618456433895548
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.66857
+    l2 = 15.0014
+    l3 = 11.463
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.73857
+    w13 = 2.81781
+    w21 = 855.403e-03
+    w23 = 2.40208
+
+SP Optim1[1].SP1[54] <3_lib:spmod_LNA:schematic>  optIter=54  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[54] <3_lib:spmod_LNA:schematic>  optIter=54  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #54:
+  CurrentEF: 0.00618373924647098
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.65907
+    l2 = 15.0014
+    l3 = 11.4685
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.74322
+    w13 = 2.82164
+    w21 = 854.848e-03
+    w23 = 2.40276
+
+SP Optim1[1].SP1[55] <3_lib:spmod_LNA:schematic>  optIter=55  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[55] <3_lib:spmod_LNA:schematic>  optIter=55  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #55:
+  CurrentEF: 0.00617830411300415
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.61354
+    l2 = 15.0014
+    l3 = 11.4714
+    l4 = 28.0798
+    w = 2.9994
+    w12 = 1.74087
+    w13 = 2.84906
+    w21 = 854.861e-03
+    w23 = 2.40266
+
+SP Optim1[1].SP1[56] <3_lib:spmod_LNA:schematic>  optIter=56  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[56] <3_lib:spmod_LNA:schematic>  optIter=56  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #56:
+  CurrentEF: 0.00617694392199714
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.58621
+    l2 = 15.0014
+    l3 = 11.5053
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.74272
+    w13 = 2.85971
+    w21 = 852.927e-03
+    w23 = 2.40493
+
+SP Optim1[1].SP1[57] <3_lib:spmod_LNA:schematic>  optIter=57  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[57] <3_lib:spmod_LNA:schematic>  optIter=57  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #57:
+  CurrentEF: 0.00617091940569695
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.53442
+    l2 = 15.0014
+    l3 = 11.5071
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.74649
+    w13 = 2.89154
+    w21 = 853.168e-03
+    w23 = 2.382
+
+SP Optim1[1].SP1[58] <3_lib:spmod_LNA:schematic>  optIter=58  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[58] <3_lib:spmod_LNA:schematic>  optIter=58  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #58:
+  CurrentEF: 0.00617025926349643
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.51171
+    l2 = 15.0014
+    l3 = 11.5271
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.75245
+    w13 = 2.90165
+    w21 = 852.573e-03
+    w23 = 2.38493
+
+SP Optim1[1].SP1[59] <3_lib:spmod_LNA:schematic>  optIter=59  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[59] <3_lib:spmod_LNA:schematic>  optIter=59  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #59:
+  CurrentEF: 0.00616680486122368
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.43722
+    l2 = 15.0014
+    l3 = 11.6
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.75139
+    w13 = 2.93063
+    w21 = 853.086e-03
+    w23 = 2.39446
+
+SP Optim1[1].SP1[60] <3_lib:spmod_LNA:schematic>  optIter=60  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[60] <3_lib:spmod_LNA:schematic>  optIter=60  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #60:
+  CurrentEF: 0.00616553118026611
+  Optimization variables:
+    l = 4.02455
+    l1 = 4.37573
+    l2 = 15.0014
+    l3 = 11.6523
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.74872
+    w13 = 2.95765
+    w21 = 854.716e-03
+    w23 = 2.40171
+
+SP Optim1[1].SP1[61] <3_lib:spmod_LNA:schematic>  optIter=61  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[61] <3_lib:spmod_LNA:schematic>  optIter=61  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #61:
+  CurrentEF: 0.00612964879912932
+  Optimization variables:
+    l = 4.02457
+    l1 = 3.82743
+    l2 = 15.0014
+    l3 = 11.7863
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.7547
+    w13 = 3.33581
+    w21 = 904.062e-03
+    w23 = 2.44454
+
+SP Optim1[1].SP1[62] <3_lib:spmod_LNA:schematic>  optIter=62  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[62] <3_lib:spmod_LNA:schematic>  optIter=62  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #62:
+  CurrentEF: 0.00610524960727445
+  Optimization variables:
+    l = 4.02457
+    l1 = 3.82502
+    l2 = 15.0014
+    l3 = 11.6828
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.75546
+    w13 = 3.39685
+    w21 = 898.407e-03
+    w23 = 2.47267
+
+SP Optim1[1].SP1[63] <3_lib:spmod_LNA:schematic>  optIter=63  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[63] <3_lib:spmod_LNA:schematic>  optIter=63  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #63:
+  CurrentEF: 0.00610253127087884
+  Optimization variables:
+    l = 4.02457
+    l1 = 3.79003
+    l2 = 15.0014
+    l3 = 11.6976
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.76496
+    w13 = 3.42057
+    w21 = 899.178e-03
+    w23 = 2.47717
+
+SP Optim1[1].SP1[64] <3_lib:spmod_LNA:schematic>  optIter=64  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[64] <3_lib:spmod_LNA:schematic>  optIter=64  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #64:
+  CurrentEF: 0.00609973333725607
+  Optimization variables:
+    l = 4.02457
+    l1 = 3.70054
+    l2 = 15.0014
+    l3 = 11.731
+    l4 = 28.0799
+    w = 2.9994
+    w12 = 1.77849
+    w13 = 3.48351
+    w21 = 901.964e-03
+    w23 = 2.49029
+
+SP Optim1[1].SP1[65] <3_lib:spmod_LNA:schematic>  optIter=65  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[65] <3_lib:spmod_LNA:schematic>  optIter=65  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #65:
+  CurrentEF: 0.00605450863977506
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.89902
+    l2 = 15.0015
+    l3 = 11.8455
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.79458
+    w13 = 4.15109
+    w21 = 944.721e-03
+    w23 = 2.64204
+
+SP Optim1[1].SP1[66] <3_lib:spmod_LNA:schematic>  optIter=66  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[66] <3_lib:spmod_LNA:schematic>  optIter=66  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #66:
+  CurrentEF: 0.00600191780643529
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.90783
+    l2 = 15.0015
+    l3 = 11.5258
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.77646
+    w13 = 4.25467
+    w21 = 939.859e-03
+    w23 = 2.66123
+
+SP Optim1[1].SP1[67] <3_lib:spmod_LNA:schematic>  optIter=67  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[67] <3_lib:spmod_LNA:schematic>  optIter=67  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #67:
+  CurrentEF: 0.00599621571623202
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.88784
+    l2 = 15.0015
+    l3 = 11.4741
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.77445
+    w13 = 4.28994
+    w21 = 939.806e-03
+    w23 = 2.66966
+
+SP Optim1[1].SP1[68] <3_lib:spmod_LNA:schematic>  optIter=68  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[68] <3_lib:spmod_LNA:schematic>  optIter=68  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #68:
+  CurrentEF: 0.00596319624679532
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.90866
+    l2 = 15.0015
+    l3 = 11.5851
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.79227
+    w13 = 4.34055
+    w21 = 930.807e-03
+    w23 = 2.6719
+
+SP Optim1[1].SP1[69] <3_lib:spmod_LNA:schematic>  optIter=69  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[69] <3_lib:spmod_LNA:schematic>  optIter=69  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #69:
+  CurrentEF: 0.00595050756785446
+  Optimization variables:
+    l = 4.02461
+    l1 = 2.80637
+    l2 = 15.0015
+    l3 = 11.5035
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78768
+    w13 = 4.4494
+    w21 = 937.216e-03
+    w23 = 2.70108
+
+SP Optim1[1].SP1[70] <3_lib:spmod_LNA:schematic>  optIter=70  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[70] <3_lib:spmod_LNA:schematic>  optIter=70  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #70:
+  CurrentEF: 0.00594749930708366
+  Optimization variables:
+    l = 4.02461
+    l1 = 2.78524
+    l2 = 15.0015
+    l3 = 11.4732
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78712
+    w13 = 4.47568
+    w21 = 937.699e-03
+    w23 = 2.70889
+
+SP Optim1[1].SP1[71] <3_lib:spmod_LNA:schematic>  optIter=71  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[71] <3_lib:spmod_LNA:schematic>  optIter=71  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #71:
+  CurrentEF: 0.00594058208555271
+  Optimization variables:
+    l = 4.02461
+    l1 = 2.88305
+    l2 = 15.0015
+    l3 = 11.4627
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.77877
+    w13 = 4.40676
+    w21 = 920.817e-03
+    w23 = 2.69964
+
+SP Optim1[1].SP1[72] <3_lib:spmod_LNA:schematic>  optIter=72  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[72] <3_lib:spmod_LNA:schematic>  optIter=72  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #72:
+  CurrentEF: 0.0059397462427428
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.90032
+    l2 = 15.0015
+    l3 = 11.4693
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78134
+    w13 = 4.39152
+    w21 = 919.487e-03
+    w23 = 2.69553
+
+SP Optim1[1].SP1[73] <3_lib:spmod_LNA:schematic>  optIter=73  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[73] <3_lib:spmod_LNA:schematic>  optIter=73  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #73:
+  CurrentEF: 0.00593900048575592
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.91003
+    l2 = 15.0015
+    l3 = 11.4684
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78485
+    w13 = 4.38536
+    w21 = 918.526e-03
+    w23 = 2.69398
+
+SP Optim1[1].SP1[74] <3_lib:spmod_LNA:schematic>  optIter=74  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[74] <3_lib:spmod_LNA:schematic>  optIter=74  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #74:
+  CurrentEF: 0.00593823807314558
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.92299
+    l2 = 15.0015
+    l3 = 11.4609
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78664
+    w13 = 4.38091
+    w21 = 915.66e-03
+    w23 = 2.69464
+
+SP Optim1[1].SP1[75] <3_lib:spmod_LNA:schematic>  optIter=75  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[75] <3_lib:spmod_LNA:schematic>  optIter=75  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #75:
+  CurrentEF: 0.00592568723734714
+  Optimization variables:
+    l = 4.0246
+    l1 = 2.95579
+    l2 = 15.0015
+    l3 = 11.459
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.78703
+    w13 = 4.42231
+    w21 = 905.815e-03
+    w23 = 2.6678
+
+SP Optim1[1].SP1[76] <3_lib:spmod_LNA:schematic>  optIter=76  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[76] <3_lib:spmod_LNA:schematic>  optIter=76  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #76:
+  CurrentEF: 0.0059134489359385
+  Optimization variables:
+    l = 4.02461
+    l1 = 2.74493
+    l2 = 15.0015
+    l3 = 11.43
+    l4 = 28.0801
+    w = 2.99939
+    w12 = 1.79904
+    w13 = 4.61049
+    w21 = 921.9e-03
+    w23 = 2.72861
+
+SP Optim1[1].SP1[77] <3_lib:spmod_LNA:schematic>  optIter=77  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[77] <3_lib:spmod_LNA:schematic>  optIter=77  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #77:
+  CurrentEF: 0.00589331201436979
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.5406
+    l2 = 15.0015
+    l3 = 11.4754
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81731
+    w13 = 4.78153
+    w21 = 934.275e-03
+    w23 = 2.81288
+
+SP Optim1[1].SP1[78] <3_lib:spmod_LNA:schematic>  optIter=78  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[78] <3_lib:spmod_LNA:schematic>  optIter=78  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #78:
+  CurrentEF: 0.00589216918245639
+  Optimization variables:
+    l = 4.02462
+    l1 = 2.58149
+    l2 = 15.0015
+    l3 = 11.4849
+    l4 = 28.0802
+    w = 2.99939
+    w12 = 1.81465
+    w13 = 4.75069
+    w21 = 929.826e-03
+    w23 = 2.80084
+
+SP Optim1[1].SP1[79] <3_lib:spmod_LNA:schematic>  optIter=79  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[79] <3_lib:spmod_LNA:schematic>  optIter=79  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #79:
+  CurrentEF: 0.00589153695369102
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.57728
+    l2 = 15.0015
+    l3 = 11.4913
+    l4 = 28.0802
+    w = 2.99939
+    w12 = 1.81534
+    w13 = 4.75698
+    w21 = 928.257e-03
+    w23 = 2.80942
+
+SP Optim1[1].SP1[80] <3_lib:spmod_LNA:schematic>  optIter=80  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[80] <3_lib:spmod_LNA:schematic>  optIter=80  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #80:
+  CurrentEF: 0.0058903306251479
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.56232
+    l2 = 15.0015
+    l3 = 11.4844
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81581
+    w13 = 4.77658
+    w21 = 925.645e-03
+    w23 = 2.83067
+
+SP Optim1[1].SP1[81] <3_lib:spmod_LNA:schematic>  optIter=81  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[81] <3_lib:spmod_LNA:schematic>  optIter=81  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #81:
+  CurrentEF: 0.00587287863539422
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.59019
+    l2 = 15.0015
+    l3 = 11.4767
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81505
+    w13 = 4.81977
+    w21 = 916.217e-03
+    w23 = 2.80255
+
+SP Optim1[1].SP1[82] <3_lib:spmod_LNA:schematic>  optIter=82  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[82] <3_lib:spmod_LNA:schematic>  optIter=82  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #82:
+  CurrentEF: 0.00586086822432015
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.58413
+    l2 = 15.0015
+    l3 = 11.4716
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81504
+    w13 = 4.86657
+    w21 = 917.117e-03
+    w23 = 2.77575
+
+SP Optim1[1].SP1[83] <3_lib:spmod_LNA:schematic>  optIter=83  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[83] <3_lib:spmod_LNA:schematic>  optIter=83  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #83:
+  CurrentEF: 0.00584907082989836
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.54848
+    l2 = 15.0015
+    l3 = 11.463
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.79828
+    w13 = 4.9292
+    w21 = 919.346e-03
+    w23 = 2.76571
+
+SP Optim1[1].SP1[84] <3_lib:spmod_LNA:schematic>  optIter=84  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[84] <3_lib:spmod_LNA:schematic>  optIter=84  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #84:
+  CurrentEF: 0.00584658344841789
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.50616
+    l2 = 15.0015
+    l3 = 11.4852
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.80444
+    w13 = 4.94719
+    w21 = 922.355e-03
+    w23 = 2.78224
+
+SP Optim1[1].SP1[85] <3_lib:spmod_LNA:schematic>  optIter=85  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[85] <3_lib:spmod_LNA:schematic>  optIter=85  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #85:
+  CurrentEF: 0.0058349082082264
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.53479
+    l2 = 15.0015
+    l3 = 11.4888
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.80453
+    w13 = 4.97927
+    w21 = 913.056e-03
+    w23 = 2.752
+
+SP Optim1[1].SP1[86] <3_lib:spmod_LNA:schematic>  optIter=86  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[86] <3_lib:spmod_LNA:schematic>  optIter=86  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #86:
+  CurrentEF: 0.00582603404510906
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.50337
+    l2 = 15.0015
+    l3 = 11.495
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.80611
+    w13 = 4.99975
+    w21 = 904.921e-03
+    w23 = 2.72399
+
+SP Optim1[1].SP1[87] <3_lib:spmod_LNA:schematic>  optIter=87  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[87] <3_lib:spmod_LNA:schematic>  optIter=87  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #87:
+  CurrentEF: 0.0058229454448121
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.47408
+    l2 = 15.0015
+    l3 = 11.4993
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.80733
+    w13 = 4.99982
+    w21 = 905.769e-03
+    w23 = 2.69565
+
+SP Optim1[1].SP1[88] <3_lib:spmod_LNA:schematic>  optIter=88  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[88] <3_lib:spmod_LNA:schematic>  optIter=88  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #88:
+  CurrentEF: 0.00582199816206451
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.47596
+    l2 = 15.0015
+    l3 = 11.5075
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81202
+    w13 = 4.99973
+    w21 = 904.08e-03
+    w23 = 2.6918
+
+SP Optim1[1].SP1[89] <3_lib:spmod_LNA:schematic>  optIter=89  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[89] <3_lib:spmod_LNA:schematic>  optIter=89  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #89:
+  CurrentEF: 0.00582117441005981
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.4851
+    l2 = 15.0015
+    l3 = 11.4992
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8137
+    w13 = 4.99944
+    w21 = 901.463e-03
+    w23 = 2.68908
+
+SP Optim1[1].SP1[90] <3_lib:spmod_LNA:schematic>  optIter=90  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[90] <3_lib:spmod_LNA:schematic>  optIter=90  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #90:
+  CurrentEF: 0.00582031651347454
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.48476
+    l2 = 15.0015
+    l3 = 11.499
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81054
+    w13 = 4.99944
+    w21 = 898.796e-03
+    w23 = 2.68628
+
+SP Optim1[1].SP1[91] <3_lib:spmod_LNA:schematic>  optIter=91  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[91] <3_lib:spmod_LNA:schematic>  optIter=91  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #91:
+  CurrentEF: 0.00581764719081438
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.48421
+    l2 = 15.0015
+    l3 = 11.4981
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8081
+    w13 = 4.99944
+    w21 = 896.049e-03
+    w23 = 2.65599
+
+SP Optim1[1].SP1[92] <3_lib:spmod_LNA:schematic>  optIter=92  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[92] <3_lib:spmod_LNA:schematic>  optIter=92  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #92:
+  CurrentEF: 0.00581678715434263
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.48322
+    l2 = 15.0015
+    l3 = 11.5002
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8062
+    w13 = 4.99945
+    w21 = 890.002e-03
+    w23 = 2.64934
+
+SP Optim1[1].SP1[93] <3_lib:spmod_LNA:schematic>  optIter=93  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[93] <3_lib:spmod_LNA:schematic>  optIter=93  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #93:
+  CurrentEF: 0.00581543574982497
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.48394
+    l2 = 15.0015
+    l3 = 11.5003
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.80831
+    w13 = 4.99945
+    w21 = 892.757e-03
+    w23 = 2.62566
+
+SP Optim1[1].SP1[94] <3_lib:spmod_LNA:schematic>  optIter=94  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[94] <3_lib:spmod_LNA:schematic>  optIter=94  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #94:
+  CurrentEF: 0.00581296104216263
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.48438
+    l2 = 15.0015
+    l3 = 11.5144
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81443
+    w13 = 4.99946
+    w21 = 881.553e-03
+    w23 = 2.61339
+
+SP Optim1[1].SP1[95] <3_lib:spmod_LNA:schematic>  optIter=95  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[95] <3_lib:spmod_LNA:schematic>  optIter=95  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #95:
+  CurrentEF: 0.00581062110709575
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.45994
+    l2 = 15.0015
+    l3 = 11.5147
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81451
+    w13 = 4.99946
+    w21 = 881.241e-03
+    w23 = 2.58688
+
+SP Optim1[1].SP1[96] <3_lib:spmod_LNA:schematic>  optIter=96  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[96] <3_lib:spmod_LNA:schematic>  optIter=96  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #96:
+  CurrentEF: 0.00580972214077904
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43537
+    l2 = 15.0015
+    l3 = 11.5107
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8164
+    w13 = 4.99946
+    w21 = 879.077e-03
+    w23 = 2.55938
+
+SP Optim1[1].SP1[97] <3_lib:spmod_LNA:schematic>  optIter=97  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[97] <3_lib:spmod_LNA:schematic>  optIter=97  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #97:
+  CurrentEF: 0.00580873624732432
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43575
+    l2 = 15.0015
+    l3 = 11.5207
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81859
+    w13 = 4.99947
+    w21 = 875.011e-03
+    w23 = 2.55978
+
+SP Optim1[1].SP1[98] <3_lib:spmod_LNA:schematic>  optIter=98  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[98] <3_lib:spmod_LNA:schematic>  optIter=98  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #98:
+  CurrentEF: 0.00580852143950938
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43578
+    l2 = 15.0015
+    l3 = 11.5219
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.81884
+    w13 = 4.99947
+    w21 = 874.48e-03
+    w23 = 2.53419
+
+SP Optim1[1].SP1[99] <3_lib:spmod_LNA:schematic>  optIter=99  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[99] <3_lib:spmod_LNA:schematic>  optIter=99  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #99:
+  CurrentEF: 0.00580804636817952
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.4362
+    l2 = 15.0015
+    l3 = 11.5289
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82074
+    w13 = 4.99947
+    w21 = 871.167e-03
+    w23 = 2.53542
+
+SP Optim1[1].SP1[100] <3_lib:spmod_LNA:schematic>  optIter=100  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[100] <3_lib:spmod_LNA:schematic>  optIter=100  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #100:
+  CurrentEF: 0.00580797436402848
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43647
+    l2 = 15.0015
+    l3 = 11.5296
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8214
+    w13 = 4.99947
+    w21 = 869.669e-03
+    w23 = 2.53651
+
+SP Optim1[1].SP1[101] <3_lib:spmod_LNA:schematic>  optIter=101  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[101] <3_lib:spmod_LNA:schematic>  optIter=101  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #101:
+  CurrentEF: 0.00580770892584026
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43677
+    l2 = 15.0015
+    l3 = 11.5239
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82111
+    w13 = 4.99947
+    w21 = 869.087e-03
+    w23 = 2.51285
+
+SP Optim1[1].SP1[102] <3_lib:spmod_LNA:schematic>  optIter=102  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[102] <3_lib:spmod_LNA:schematic>  optIter=102  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #102:
+  CurrentEF: 0.00580758889990906
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43739
+    l2 = 15.0015
+    l3 = 11.5135
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82068
+    w13 = 4.99948
+    w21 = 867.689e-03
+    w23 = 2.51637
+
+SP Optim1[1].SP1[103] <3_lib:spmod_LNA:schematic>  optIter=103  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[103] <3_lib:spmod_LNA:schematic>  optIter=103  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #103:
+  CurrentEF: 0.00580703421180646
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.43721
+    l2 = 15.0015
+    l3 = 11.5172
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82072
+    w13 = 4.99948
+    w21 = 859.412e-03
+    w23 = 2.49018
+
+SP Optim1[1].SP1[104] <3_lib:spmod_LNA:schematic>  optIter=104  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[104] <3_lib:spmod_LNA:schematic>  optIter=104  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #104:
+  CurrentEF: 0.00580685478013642
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41309
+    l2 = 15.0015
+    l3 = 11.5212
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82047
+    w13 = 4.99948
+    w21 = 859.37e-03
+    w23 = 2.49032
+
+SP Optim1[1].SP1[105] <3_lib:spmod_LNA:schematic>  optIter=105  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[105] <3_lib:spmod_LNA:schematic>  optIter=105  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #105:
+  CurrentEF: 0.00580677838889072
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41299
+    l2 = 15.0015
+    l3 = 11.5264
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.8208
+    w13 = 4.99948
+    w21 = 859.305e-03
+    w23 = 2.49047
+
+SP Optim1[1].SP1[106] <3_lib:spmod_LNA:schematic>  optIter=106  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[106] <3_lib:spmod_LNA:schematic>  optIter=106  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #106:
+  CurrentEF: 0.00580671476245393
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41324
+    l2 = 15.0015
+    l3 = 11.5255
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82314
+    w13 = 4.99949
+    w21 = 859.286e-03
+    w23 = 2.49038
+
+SP Optim1[1].SP1[107] <3_lib:spmod_LNA:schematic>  optIter=107  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[107] <3_lib:spmod_LNA:schematic>  optIter=107  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #107:
+  CurrentEF: 0.00580670802256578
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.4132
+    l2 = 15.0015
+    l3 = 11.5258
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82261
+    w13 = 4.99949
+    w21 = 859.266e-03
+    w23 = 2.4904
+
+SP Optim1[1].SP1[108] <3_lib:spmod_LNA:schematic>  optIter=108  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[108] <3_lib:spmod_LNA:schematic>  optIter=108  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #108:
+  CurrentEF: 0.00580670508942383
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41336
+    l2 = 15.0015
+    l3 = 11.5259
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82247
+    w13 = 4.99949
+    w21 = 859.051e-03
+    w23 = 2.49036
+
+SP Optim1[1].SP1[109] <3_lib:spmod_LNA:schematic>  optIter=109  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[109] <3_lib:spmod_LNA:schematic>  optIter=109  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #109:
+  CurrentEF: 0.00580670277359719
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41362
+    l2 = 15.0015
+    l3 = 11.5257
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82254
+    w13 = 4.99949
+    w21 = 858.771e-03
+    w23 = 2.49028
+
+SP Optim1[1].SP1[110] <3_lib:spmod_LNA:schematic>  optIter=110  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[110] <3_lib:spmod_LNA:schematic>  optIter=110  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #110:
+  CurrentEF: 0.00580670229090914
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41377
+    l2 = 15.0015
+    l3 = 11.5256
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82265
+    w13 = 4.9995
+    w21 = 858.643e-03
+    w23 = 2.49022
+
+SP Optim1[1].SP1[111] <3_lib:spmod_LNA:schematic>  optIter=111  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[111] <3_lib:spmod_LNA:schematic>  optIter=111  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #111:
+  CurrentEF: 0.00580670200042939
+  Optimization variables:
+    l = 4.02463
+    l1 = 2.41402
+    l2 = 15.0015
+    l3 = 11.5255
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82279
+    w13 = 4.9995
+    w21 = 858.521e-03
+    w23 = 2.49004
+
+SP Optim1[1].SP1[112] <3_lib:spmod_LNA:schematic>  optIter=112  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[112] <3_lib:spmod_LNA:schematic>  optIter=112  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #112:
+  CurrentEF: 0.00580669677206368
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41555
+    l2 = 15.0015
+    l3 = 11.5254
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82297
+    w13 = 4.99954
+    w21 = 858.257e-03
+    w23 = 2.48862
+
+SP Optim1[1].SP1[113] <3_lib:spmod_LNA:schematic>  optIter=113  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[113] <3_lib:spmod_LNA:schematic>  optIter=113  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #113:
+  CurrentEF: 0.00580668929156026
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41758
+    l2 = 15.0015
+    l3 = 11.5257
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82277
+    w13 = 4.99959
+    w21 = 858.083e-03
+    w23 = 2.48661
+
+SP Optim1[1].SP1[114] <3_lib:spmod_LNA:schematic>  optIter=114  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[114] <3_lib:spmod_LNA:schematic>  optIter=114  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #114:
+  CurrentEF: 0.00580668725123412
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41941
+    l2 = 15.0015
+    l3 = 11.5262
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82229
+    w13 = 4.99963
+    w21 = 858.025e-03
+    w23 = 2.48471
+
+SP Optim1[1].SP1[115] <3_lib:spmod_LNA:schematic>  optIter=115  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[115] <3_lib:spmod_LNA:schematic>  optIter=115  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #115:
+  CurrentEF: 0.00580668693371116
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.4194
+    l2 = 15.0015
+    l3 = 11.5263
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82219
+    w13 = 4.99963
+    w21 = 858.059e-03
+    w23 = 2.4847
+
+SP Optim1[1].SP1[116] <3_lib:spmod_LNA:schematic>  optIter=116  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[116] <3_lib:spmod_LNA:schematic>  optIter=116  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #116:
+  CurrentEF: 0.00580668648228158
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41922
+    l2 = 15.0015
+    l3 = 11.5264
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82211
+    w13 = 4.99963
+    w21 = 858.104e-03
+    w23 = 2.48487
+
+SP Optim1[1].SP1[117] <3_lib:spmod_LNA:schematic>  optIter=117  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[117] <3_lib:spmod_LNA:schematic>  optIter=117  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #117:
+  CurrentEF: 0.00580668648228158
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41922
+    l2 = 15.0015
+    l3 = 11.5264
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82211
+    w13 = 4.99963
+    w21 = 858.104e-03
+    w23 = 2.48487
+
+SP Optim1[1].SP1[118] <3_lib:spmod_LNA:schematic>  optIter=118  freq=(100 MHz->5 GHz)
+..................................................
+
+SP Optim1[1].SP2[118] <3_lib:spmod_LNA:schematic>  optIter=118  freq=(1.1 GHz->1.8 GHz)
+...............
+Iteration/Trial #118:
+  CurrentEF: 0.00580668648228158
+  Optimization variables:
+    l = 4.02464
+    l1 = 2.41922
+    l2 = 15.0015
+    l3 = 11.5264
+    l4 = 28.0802
+    w = 2.99938
+    w12 = 1.82211
+    w13 = 4.99963
+    w21 = 858.104e-03
+    w23 = 2.48487
+Optim1[1] terminated due to zero gradient 
 
 Resource usage:
-  Total stopwatch time     =     2.80 seconds.
+  Total stopwatch time     =    93.35 seconds.
 

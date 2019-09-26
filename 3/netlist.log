@@ -1,21 +1,9 @@
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="3_lib:spmod_LNA:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
-define DA_SSMatch1_spmod_LNA ( P1  P2 ) 
-parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
-MTEE:Tee1  P1 N__1 N__3 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
-MLEF2:TL1  N__3 Subst="MSub1" W=1.915 mm L=6.923 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-MLIN2:TL2  N__1 P2 Subst="MSub1" W=1.915 mm L=22.509 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-end DA_SSMatch1_spmod_LNA
-define DA_SSMatch2_spmod_LNA ( P1  P2 ) 
-parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
-MTEE:Tee1  P1 N__3 N__0 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
-MLEF2:TL1  N__0 Subst="MSub1" W=1.915 mm L=13.891 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-MLIN2:TL2  N__3 P2 Subst="MSub1" W=1.915 mm L=33.792 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-end DA_SSMatch2_spmod_LNA
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="3_lib:spmod_LNA:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
-SweepPlan: SP1_stim Start=1.1 GHz Stop=1.8 GHz Step=0.05 GHz 
+SweepPlan: SP1_stim Start=0.1 GHz Stop=5 GHz Step=0.1 GHz 
 
 OutputPlan:SP1_Output \
       Type="Output" \
@@ -26,15 +14,75 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-Port:Term2  N__6 0 Num=2 Z=50 Ohm Noise=yes 
-Port:Term1  N__2 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__8 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term1  N__6 0 Num=1 Z=50 Ohm Noise=yes 
 
 ;#@# autodisplay="S_Params_Quad_dB_Smith"
-#uselib "ckt" , "S2P"
-S2P:SNP1  N__3 N__1 0 Lib="sp_hp99" File="sp_hp_AT-32032_3_19980529" Temp=27.0 
+MTEE:Tee1  N__16 N__2 N__7 Subst="MSub1" W1=1.8825 mm W2=w12 mm W3=w13 mm 
+MLIN2:TL2  N__2 N__1 Subst="MSub1" W=w12 mm L=l2 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 aele Zin1=zin(S11,PortZ1);
+MLEF2:TL1  N__7 Subst="MSub1" W=w13 mm L=l1 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 model MSub1 MSUB H=1 mm Er=4.4 Mur=1 Cond=5.88E+7 Hu=1.0e+033 mm T=0.03 mm TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 aele StabFact1=stab_fact(S);
+#uselib "ckt" , "S2P"
+S2P:SNP1  N__1 N__14 N__12 Lib="sp_hp99" File="sp_hp_AT-32032_3_19980529" Temp=27.0 
 aele Zin2=zin(S22,PortZ2);
-DA_SSMatch1_spmod_LNA:DA_SSMatch1  N__2 N__3 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=40.616-j*15.951 Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
-DA_SSMatch2_spmod_LNA:DA_SSMatch2  N__6 N__1 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=103.423-j*46.252 Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
+MLIN2:TL3  N__14 N__9 Subst="MSub1" W=w21 mm L=l4 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MTEE:Tee2  N__9 N__17 N__5 Subst="MSub1" W1=w21 mm W2=1.8825 mm W3=w23 mm 
+MLEF2:TL4  N__5 Subst="MSub1" W=w23 mm L=l3 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=500 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no 
+
+OptimGoal:OptimGoal1 Expr="StabFact1" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=0.8 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=100 MHz IndepMax[1]=5 GHz 
+
+l1=6.923 opt{ 2 to 10 }
+l2=22.509 opt{ 15 to 30 }
+l3=13.891 opt{ 8 to 20 }
+l4=33.792 opt{ 28 to 40 }
+w12=1.8825 opt{ 0.5 to 5 }
+w13=1.8825 opt{ 0.5 to 5 }
+w21=1.8825 opt{ 0.5 to 5 }
+w23=1.8825 opt{ 0.5 to 5 }
+w=1.8825 opt{ 0.5 to 3 }
+l=7 opt{ 4 to 10 }
+S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
+
+SweepPlan: SP2_stim Start=1.1 GHz Stop=1.8 GHz Step=0.05 GHz 
+
+OutputPlan:SP2_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+OptimGoal:OptimGoal2 Expr="dB(S(2,1))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="GreaterThan" Min=12 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+OptimGoal:OptimGoal3 Expr="dB(S(1,1))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="LessThan" Max=-8 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+OptimGoal:OptimGoal4 Expr="dB(S(2,2))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal4_limit1" 
+SpecLimitLine:"OptimGoal4_limit1" Type="LessThan" Max=-10 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+OptimGoal:OptimGoal5 Expr="dB(nf(2))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal5_limit1" 
+SpecLimitLine:"OptimGoal5_limit1" Type="LessThan" Max=1.7 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+MLIN2:TL5  N__6 N__16 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL6  N__17 N__8 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL7  N__12 0 Subst="MSub1" W=w mm L=l mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
