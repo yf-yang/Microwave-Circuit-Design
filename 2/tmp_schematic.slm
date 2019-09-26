@@ -1,0 +1,13 @@
+VERSION 100
+UNIT mil
+SUBNAME 
+TOP 0 0 0 0
+BOTTOM 0 1 0 0
+SUB0 AIR 1 1 0 1 1 0 -1 0.001 0.001 1 0 0
+SUB1 Subst_1 1 4.4 0.02 1 1 0 1 0 0.001 2 0 4
+MET1 cond 0.001 1 2 2 5.88e+007 0.03 Siemens/m mm 1 0.03 mm
+MET2 cond2 0.001 1 2 1 1e+010 0 Siemens/m mm 0 0 mm
+MET3 diel2 0.001 1 4 1 1e+010 0 Siemens/m mm 0 0 mm
+MET4 hole 0.001 1 4 1 1e+010 0 Siemens/m mm 0 0 mm
+MET5 resi 0.001 1 2 1 1e+010 0 Siemens/m mm 0 0 mm
+MET6 bond 0.001 1 2 1 1e+010 0 Siemens/m mm 0 0 mm

@@ -3,193 +3,442 @@ hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
     (64-bit windows built: 01/21/16 15:34:19)
 Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
 
-Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 2
 
-
-OPTIM Optim1[1] <2_lib:filter:schematic>  optIter=(0->102)
+OPTIM Optim1[1] <2_lib:filter:schematic>  optIter=(0->10000)
 
 SP Optim1[1].SP1[0] <2_lib:filter:schematic>  optIter=0  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #0:
-  CurrentEF: 0.0218409564727021
+  CurrentEF: 0.111545051812258
   Optimization variables:
     l1 = 29.608
     l2 = 28.497
-    l3 = 29.8179
     s1 = 500.011e-03
     s2 = 739.686e-03
-    s3 = 637.073e-03
     w1 = 646.774e-03
     w2 = 1.66666
-    w3 = 2.04501
 
 SP Optim1[1].SP1[1] <2_lib:filter:schematic>  optIter=1  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #1:
-  CurrentEF: 0.021840955046765
+  CurrentEF: 0.0763039191494869
   Optimization variables:
-    l1 = 29.6079
-    l2 = 28.4969
-    l3 = 30.1186
-    s1 = 500.011e-03
-    s2 = 739.683e-03
-    s3 = 637.073e-03
-    w1 = 646.766e-03
-    w2 = 1.66666
-    w3 = 2.04501
+    l1 = 29.2644
+    l2 = 28.2765
+    s1 = 500.017e-03
+    s2 = 720.434e-03
+    w1 = 681.999e-03
+    w2 = 1.61415
 
 SP Optim1[1].SP1[2] <2_lib:filter:schematic>  optIter=2  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #2:
-  CurrentEF: 0.021840954539846
+  CurrentEF: 0.0333090427073964
   Optimization variables:
-    l1 = 29.6079
-    l2 = 28.4968
-    l3 = 30.1186
-    s1 = 500.011e-03
-    s2 = 739.678e-03
-    s3 = 637.073e-03
-    w1 = 646.759e-03
-    w2 = 1.66665
-    w3 = 2.04501
+    l1 = 29.4103
+    l2 = 28.3486
+    s1 = 500.057e-03
+    s2 = 756.677e-03
+    w1 = 871.968e-03
+    w2 = 1.59805
 
 SP Optim1[1].SP1[3] <2_lib:filter:schematic>  optIter=3  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #3:
-  CurrentEF: 0.021840949132293
+  CurrentEF: 0.0149720824112064
   Optimization variables:
-    l1 = 29.6076
-    l2 = 28.4967
-    l3 = 30.1186
-    s1 = 500.009e-03
-    s2 = 739.646e-03
-    s3 = 637.073e-03
-    w1 = 646.76e-03
-    w2 = 1.66666
-    w3 = 2.04501
+    l1 = 29.1622
+    l2 = 27.944
+    s1 = 500.116e-03
+    s2 = 917.913e-03
+    w1 = 967.189e-03
+    w2 = 1.69469
 
 SP Optim1[1].SP1[4] <2_lib:filter:schematic>  optIter=4  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #4:
-  CurrentEF: 0.0218409388381466
+  CurrentEF: 0.0125504014841266
   Optimization variables:
-    l1 = 29.6076
-    l2 = 28.4966
-    l3 = 30.1186
-    s1 = 500.008e-03
-    s2 = 739.648e-03
-    s3 = 637.073e-03
-    w1 = 646.747e-03
-    w2 = 1.66668
-    w3 = 2.04501
+    l1 = 29.1408
+    l2 = 27.8937
+    s1 = 500.15e-03
+    s2 = 939.503e-03
+    w1 = 1.01448
+    w2 = 1.70142
 
 SP Optim1[1].SP1[5] <2_lib:filter:schematic>  optIter=5  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #5:
-  CurrentEF: 0.0218408639674459
+  CurrentEF: 0.0124881146701894
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 30.1186
-    s1 = 500.001e-03
-    s2 = 739.631e-03
-    s3 = 637.073e-03
-    w1 = 646.753e-03
-    w2 = 1.66692
-    w3 = 2.04501
+    l1 = 29.1537
+    l2 = 27.8916
+    s1 = 500.151e-03
+    s2 = 933.011e-03
+    w1 = 1.01184
+    w2 = 1.69716
 
 SP Optim1[1].SP1[6] <2_lib:filter:schematic>  optIter=6  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #6:
-  CurrentEF: 0.0218408259667074
+  CurrentEF: 0.0124244775070883
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 30.1186
-    s1 = 500e-03
-    s2 = 739.592e-03
-    s3 = 637.073e-03
-    w1 = 646.789e-03
-    w2 = 1.66702
-    w3 = 2.04501
+    l1 = 29.1668
+    l2 = 27.8661
+    s1 = 500.154e-03
+    s2 = 928.938e-03
+    w1 = 1.00751
+    w2 = 1.69282
 
 SP Optim1[1].SP1[7] <2_lib:filter:schematic>  optIter=7  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #7:
-  CurrentEF: 0.0218408203399843
+  CurrentEF: 0.0105678425049789
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 30.1186
-    s1 = 500e-03
-    s2 = 739.553e-03
-    s3 = 637.073e-03
-    w1 = 646.82e-03
-    w2 = 1.6671
-    w3 = 2.04501
+    l1 = 30.5261
+    l2 = 26.5929
+    s1 = 500.731e-03
+    s2 = 953.71e-03
+    w1 = 1.01891
+    w2 = 1.52596
 
 SP Optim1[1].SP1[8] <2_lib:filter:schematic>  optIter=8  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #8:
-  CurrentEF: 0.0218408180424996
+  CurrentEF: 0.0099449092091892
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 29.8149
-    s1 = 500e-03
-    s2 = 739.565e-03
-    s3 = 637.073e-03
-    w1 = 646.816e-03
-    w2 = 1.66706
-    w3 = 2.04501
+    l1 = 31.1469
+    l2 = 26.1014
+    s1 = 501.019e-03
+    s2 = 966.168e-03
+    w1 = 1.01121
+    w2 = 1.43943
 
 SP Optim1[1].SP1[9] <2_lib:filter:schematic>  optIter=9  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #9:
-  CurrentEF: 0.0218408174835065
+  CurrentEF: 0.00779475008250936
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 29.8149
-    s1 = 500e-03
-    s2 = 739.576e-03
-    s3 = 637.073e-03
-    w1 = 646.813e-03
-    w2 = 1.66702
-    w3 = 2.04501
+    l1 = 33.1609
+    l2 = 25.0259
+    s1 = 501.21e-03
+    s2 = 1.09739
+    w1 = 928.723e-03
+    w2 = 1.02148
 
 SP Optim1[1].SP1[10] <2_lib:filter:schematic>  optIter=10  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #10:
-  CurrentEF: 0.0218408174607396
+  CurrentEF: 0.00763737130530982
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 29.8149
-    s1 = 500e-03
-    s2 = 739.574e-03
-    s3 = 637.073e-03
-    w1 = 646.813e-03
-    w2 = 1.66703
-    w3 = 2.04501
+    l1 = 33.2802
+    l2 = 25.0102
+    s1 = 501.288e-03
+    s2 = 1.10257
+    w1 = 925.851e-03
+    w2 = 998.991e-03
 
 SP Optim1[1].SP1[11] <2_lib:filter:schematic>  optIter=11  freq=(1.1 GHz->1.8 GHz)
 .......................................................................
 Iteration/Trial #11:
-  CurrentEF: 0.0218408178334025
+  CurrentEF: 0.00677429396605775
   Optimization variables:
-    l1 = 29.6078
-    l2 = 28.4965
-    l3 = 29.8149
-    s1 = 500e-03
-    s2 = 739.574e-03
-    s3 = 637.073e-03
-    w1 = 646.813e-03
-    w2 = 1.66703
-    w3 = 2.04501
-Optim1[1] reached the iteration limit. 
+    l1 = 33.389
+    l2 = 25.0027
+    s1 = 501.551e-03
+    s2 = 1.09122
+    w1 = 914.856e-03
+    w2 = 961.097e-03
+
+SP Optim1[1].SP1[12] <2_lib:filter:schematic>  optIter=12  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #12:
+  CurrentEF: 0.00654353835553819
+  Optimization variables:
+    l1 = 33.4304
+    l2 = 25.0006
+    s1 = 501.811e-03
+    s2 = 1.10255
+    w1 = 922.682e-03
+    w2 = 947.111e-03
+
+SP Optim1[1].SP1[13] <2_lib:filter:schematic>  optIter=13  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #13:
+  CurrentEF: 0.0063422638319233
+  Optimization variables:
+    l1 = 33.4686
+    l2 = 25
+    s1 = 501.934e-03
+    s2 = 1.12358
+    w1 = 926.106e-03
+    w2 = 929.742e-03
+
+SP Optim1[1].SP1[14] <2_lib:filter:schematic>  optIter=14  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #14:
+  CurrentEF: 0.00615437997969947
+  Optimization variables:
+    l1 = 33.7298
+    l2 = 25.0217
+    s1 = 502.318e-03
+    s2 = 1.15491
+    w1 = 910.354e-03
+    w2 = 853.951e-03
+
+SP Optim1[1].SP1[15] <2_lib:filter:schematic>  optIter=15  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #15:
+  CurrentEF: 0.00610168989859542
+  Optimization variables:
+    l1 = 33.7222
+    l2 = 25.0217
+    s1 = 502.318e-03
+    s2 = 1.15379
+    w1 = 910.116e-03
+    w2 = 851.434e-03
+
+SP Optim1[1].SP1[16] <2_lib:filter:schematic>  optIter=16  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #16:
+  CurrentEF: 0.00607633089555872
+  Optimization variables:
+    l1 = 33.7171
+    l2 = 25.0217
+    s1 = 502.306e-03
+    s2 = 1.15447
+    w1 = 908.18e-03
+    w2 = 850.263e-03
+
+SP Optim1[1].SP1[17] <2_lib:filter:schematic>  optIter=17  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #17:
+  CurrentEF: 0.00606112358924838
+  Optimization variables:
+    l1 = 33.7263
+    l2 = 25.0217
+    s1 = 502.39e-03
+    s2 = 1.15044
+    w1 = 904.111e-03
+    w2 = 848.44e-03
+
+SP Optim1[1].SP1[18] <2_lib:filter:schematic>  optIter=18  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #18:
+  CurrentEF: 0.0056662610438185
+  Optimization variables:
+    l1 = 34.0546
+    l2 = 25.0217
+    s1 = 514.475e-03
+    s2 = 1.18492
+    w1 = 864.93e-03
+    w2 = 754.995e-03
+
+SP Optim1[1].SP1[19] <2_lib:filter:schematic>  optIter=19  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #19:
+  CurrentEF: 0.00564828136799353
+  Optimization variables:
+    l1 = 34.1039
+    l2 = 25.0217
+    s1 = 517.178e-03
+    s2 = 1.1898
+    w1 = 858.019e-03
+    w2 = 741.297e-03
+
+SP Optim1[1].SP1[20] <2_lib:filter:schematic>  optIter=20  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #20:
+  CurrentEF: 0.00551899852022862
+  Optimization variables:
+    l1 = 34.1133
+    l2 = 25.0217
+    s1 = 516.116e-03
+    s2 = 1.19013
+    w1 = 854.647e-03
+    w2 = 741.04e-03
+
+SP Optim1[1].SP1[21] <2_lib:filter:schematic>  optIter=21  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #21:
+  CurrentEF: 0.00525837711786184
+  Optimization variables:
+    l1 = 34.3639
+    l2 = 25.0217
+    s1 = 532.017e-03
+    s2 = 1.20381
+    w1 = 810.732e-03
+    w2 = 684.099e-03
+
+SP Optim1[1].SP1[22] <2_lib:filter:schematic>  optIter=22  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #22:
+  CurrentEF: 0.00510179456996492
+  Optimization variables:
+    l1 = 34.5335
+    l2 = 25.0217
+    s1 = 546.534e-03
+    s2 = 1.21545
+    w1 = 774.954e-03
+    w2 = 639.795e-03
+
+SP Optim1[1].SP1[23] <2_lib:filter:schematic>  optIter=23  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #23:
+  CurrentEF: 0.00499342592706082
+  Optimization variables:
+    l1 = 34.6636
+    l2 = 25.0217
+    s1 = 559.354e-03
+    s2 = 1.22334
+    w1 = 743.015e-03
+    w2 = 604.907e-03
+
+SP Optim1[1].SP1[24] <2_lib:filter:schematic>  optIter=24  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #24:
+  CurrentEF: 0.00482187224791945
+  Optimization variables:
+    l1 = 34.5971
+    l2 = 25.0217
+    s1 = 550.177e-03
+    s2 = 1.21877
+    w1 = 757.088e-03
+    w2 = 619.938e-03
+
+SP Optim1[1].SP1[25] <2_lib:filter:schematic>  optIter=25  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #25:
+  CurrentEF: 0.00478712506369823
+  Optimization variables:
+    l1 = 34.6124
+    l2 = 25.0217
+    s1 = 550.491e-03
+    s2 = 1.2176
+    w1 = 750.586e-03
+    w2 = 614.599e-03
+
+SP Optim1[1].SP1[26] <2_lib:filter:schematic>  optIter=26  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #26:
+  CurrentEF: 0.00461185808555214
+  Optimization variables:
+    l1 = 34.7598
+    l2 = 25.0217
+    s1 = 570.003e-03
+    s2 = 1.22448
+    w1 = 707.849e-03
+    w2 = 576.636e-03
+
+SP Optim1[1].SP1[27] <2_lib:filter:schematic>  optIter=27  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #27:
+  CurrentEF: 0.00453420819533499
+  Optimization variables:
+    l1 = 34.8602
+    l2 = 25.0217
+    s1 = 586.048e-03
+    s2 = 1.2281
+    w1 = 671.561e-03
+    w2 = 548.856e-03
+
+SP Optim1[1].SP1[28] <2_lib:filter:schematic>  optIter=28  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #28:
+  CurrentEF: 0.00448276358003525
+  Optimization variables:
+    l1 = 34.8516
+    l2 = 25.0217
+    s1 = 582.387e-03
+    s2 = 1.22602
+    w1 = 673.829e-03
+    w2 = 551.071e-03
+
+SP Optim1[1].SP1[29] <2_lib:filter:schematic>  optIter=29  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #29:
+  CurrentEF: 0.0042691307142357
+  Optimization variables:
+    l1 = 34.9812
+    l2 = 25.0217
+    s1 = 647.321e-03
+    s2 = 1.20878
+    w1 = 543.249e-03
+    w2 = 500.249e-03
+
+SP Optim1[1].SP1[30] <2_lib:filter:schematic>  optIter=30  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #30:
+  CurrentEF: 0.00424543123503418
+  Optimization variables:
+    l1 = 34.9665
+    l2 = 25.0217
+    s1 = 654.028e-03
+    s2 = 1.20921
+    w1 = 536.342e-03
+    w2 = 501.4e-03
+
+SP Optim1[1].SP1[31] <2_lib:filter:schematic>  optIter=31  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #31:
+  CurrentEF: 0.00423787809487608
+  Optimization variables:
+    l1 = 34.9701
+    l2 = 25.0217
+    s1 = 652.369e-03
+    s2 = 1.2113
+    w1 = 538.419e-03
+    w2 = 501.086e-03
+
+SP Optim1[1].SP1[32] <2_lib:filter:schematic>  optIter=32  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #32:
+  CurrentEF: 0.00422702400203356
+  Optimization variables:
+    l1 = 34.9594
+    l2 = 25.0217
+    s1 = 654.333e-03
+    s2 = 1.20999
+    w1 = 534.108e-03
+    w2 = 502.174e-03
+
+SP Optim1[1].SP1[33] <2_lib:filter:schematic>  optIter=33  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #33:
+  CurrentEF: 0.00419531332115916
+  Optimization variables:
+    l1 = 34.8013
+    l2 = 25.0217
+    s1 = 676.19e-03
+    s2 = 1.19448
+    w1 = 506.988e-03
+    w2 = 526.139e-03
+
+SP Optim1[1].SP1[34] <2_lib:filter:schematic>  optIter=34  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #34:
+  CurrentEF: 0.00407422897498275
+  Optimization variables:
+    l1 = 34.8013
+    l2 = 25.0217
+    s1 = 678.06e-03
+    s2 = 1.19041
+    w1 = 507.061e-03
+    w2 = 526.139e-03
+
+SP Optim1[1].SP1[35] <2_lib:filter:schematic>  optIter=35  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #35:
+  CurrentEF: 0.0040666158215612
+  Optimization variables:
+    l1 = 34.8013
+    l2 = 25.0217
+    s1 = 676.729e-03
+    s2 = 1.18798
+    w1 = 507.064e-03
+    w2 = 526.139e-03
+Optim1[1] terminated due to zero gradient 
 
 Resource usage:
-  Total stopwatch time     =    83.25 seconds.
+  Total stopwatch time     =    34.04 seconds.
 

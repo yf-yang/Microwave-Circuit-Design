@@ -1,0 +1,71 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+OPTIM Optim1[1] <2_lib:filter4:schematic>  optIter=(0->10000)
+
+SP Optim1[1].SP1[0] <2_lib:filter4:schematic>  optIter=0  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #0:
+  CurrentEF: 0.210314021019923
+  Optimization variables:
+    l1 = 32.9125
+    l2 = 25
+    s1 = 625.994e-03
+    s2 = 545.092e-03
+    w1 = 500e-03
+    w2 = 500e-03
+
+SP Optim1[1].SP1[264] <2_lib:filter4:schematic>  optIter=264  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #264:
+  CurrentEF: 0.210314017971295
+  Optimization variables:
+    l1 = 32.9125
+    l2 = 25
+    s1 = 625.994e-03
+    s2 = 545.092e-03
+    w1 = 500e-03
+    w2 = 500e-03
+
+SP Optim1[1].SP1[1313] <2_lib:filter4:schematic>  optIter=1313  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #1313:
+  CurrentEF: 0.210314015686474
+  Optimization variables:
+    l1 = 32.9125
+    l2 = 25
+    s1 = 625.994e-03
+    s2 = 545.092e-03
+    w1 = 500e-03
+    w2 = 500e-03
+
+SP Optim1[1].SP1[1340] <2_lib:filter4:schematic>  optIter=1340  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #1340:
+  CurrentEF: 0.210314014965521
+  Optimization variables:
+    l1 = 32.9125
+    l2 = 25
+    s1 = 625.994e-03
+    s2 = 545.092e-03
+    w1 = 500e-03
+    w2 = 500e-03
+
+SP Optim1[1].SP1[1342] <2_lib:filter4:schematic>  optIter=1342  freq=(1.1 GHz->1.8 GHz)
+.......................................................................
+Iteration/Trial #1342:
+  CurrentEF: 0.210314014929397
+  Optimization variables:
+    l1 = 32.9125
+    l2 = 25
+    s1 = 625.994e-03
+    s2 = 545.092e-03
+    w1 = 500e-03
+    w2 = 500e-03
+
+Resource usage:
+  Total stopwatch time     =    44.09 seconds.
+

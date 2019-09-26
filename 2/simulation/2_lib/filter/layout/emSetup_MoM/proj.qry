@@ -1,0 +1,16 @@
+#Momentum: B.12.00.024 (*) built: Jan 14 2016 
+#Momentum Date and Time: Tue Sep 24 17:10:27 2019
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.005703500759 GHz to 0.005936296708 GHz.
+
+Requested frequency range : from 0.005703500759 GHz to 0.005936296708 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : D:\课件\大四上\微波/
+Corresponding potentialname : D:\课件\大四上\微波\\substrates\0000.sdb

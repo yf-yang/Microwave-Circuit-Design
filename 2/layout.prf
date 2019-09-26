@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 3.000000
 miterVertexLength 10.000000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 3
 selectColor 99
