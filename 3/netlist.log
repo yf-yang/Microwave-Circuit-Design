@@ -1,5 +1,27 @@
+; Top Design: "3_lib:spmod_LNA:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="3_lib:spmod_LNA:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="3_lib:spmod_LNA:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: 3_lib
+; Cell Name: DA_SSMatch1_spmod_LNA
+; View Name: schematic
+define DA_SSMatch1_spmod_LNA ( P1  P2 ) 
+parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
+MTEE:Tee1  P1 N__0 N__2 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
+MLEF2:TL1  N__2 Subst="MSub1" W=1.915 mm L=6.03 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL2  N__0 P2 Subst="MSub1" W=1.915 mm L=20.114 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+end DA_SSMatch1_spmod_LNA
+
+; Library Name: 3_lib
+; Cell Name: DA_SSMatch2_spmod_LNA
+; View Name: schematic
+define DA_SSMatch2_spmod_LNA ( P1  P2 ) 
+parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
+MTEE:Tee1  P1 N__0 N__2 Subst="MSub1" W1=1.915 mm W2=1.915 mm W3=1.915 mm 
+MLEF2:TL1  N__2 Subst="MSub1" W=1.915 mm L=16.766 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL2  N__0 P2 Subst="MSub1" W=1.915 mm L=30.142 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+end DA_SSMatch2_spmod_LNA
+
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
@@ -14,41 +36,35 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-Port:Term2  N__8 0 Num=2 Z=50 Ohm Noise=yes 
-Port:Term1  N__6 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__24 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term1  N__15 0 Num=1 Z=50 Ohm Noise=yes 
 
 ;#@# autodisplay="S_Params_Quad_dB_Smith"
-MTEE:Tee1  N__16 N__2 N__7 Subst="MSub1" W1=1.8825 mm W2=w12 mm W3=w13 mm 
-MLIN2:TL2  N__2 N__1 Subst="MSub1" W=w12 mm L=l2 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 aele Zin1=zin(S11,PortZ1);
-MLEF2:TL1  N__7 Subst="MSub1" W=w13 mm L=l1 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 model MSub1 MSUB H=1 mm Er=4.4 Mur=1 Cond=5.88E+7 Hu=1.0e+033 mm T=0.03 mm TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 aele StabFact1=stab_fact(S);
 #uselib "ckt" , "S2P"
-S2P:SNP1  N__1 N__14 N__12 Lib="sp_hp99" File="sp_hp_AT-32032_3_19980529" Temp=27.0 
+S2P:SNP1  N__1 N__13 N__7 Lib="sp_hp99" File="sp_hp_AT-32032_3_19980529" Temp=27.0 
 aele Zin2=zin(S22,PortZ2);
-MLIN2:TL3  N__14 N__9 Subst="MSub1" W=w21 mm L=l4 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-MTEE:Tee2  N__9 N__17 N__5 Subst="MSub1" W1=w21 mm W2=1.8825 mm W3=w23 mm 
-MLEF2:TL4  N__5 Subst="MSub1" W=w23 mm L=l3 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 
-Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=500 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no 
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=500 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
 
 OptimGoal:OptimGoal1 Expr="StabFact1" SimInstanceName="SP1" Weight=1 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal1_limit1" 
 SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=0.8 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=100 MHz IndepMax[1]=5 GHz 
+IndepVar[1]="freq" IndepMin[1]=500 MHz IndepMax[1]=5 GHz 
 
-l1=6.923 opt{ 2 to 10 }
-l2=22.509 opt{ 15 to 30 }
-l3=13.891 opt{ 8 to 20 }
-l4=33.792 opt{ 28 to 40 }
-w12=1.8825 opt{ 0.5 to 5 }
-w13=1.8825 opt{ 0.5 to 5 }
-w21=1.8825 opt{ 0.5 to 5 }
-w23=1.8825 opt{ 0.5 to 5 }
-w=1.8825 opt{ 0.5 to 3 }
-l=7 opt{ 4 to 10 }
+l11=14.1967 opt{ 3.12877 to 30 }
+l12=5.48688 opt{ 2 to 15.002 }
+l21=27.9228 opt{ 8.80218 to 40 }
+l22=12.5267 opt{ 10 to 30 }
+w1=8.14783 opt{ 1 to 10 }
+l1=3.5364 opt{ 3 to 15 }
+w11=1.50048 opt{ 1.5 to 2.5 }
+w12=2.49996 opt{ 1.5 to 2.5 }
+w21=1.50681 opt{ 1.5 to 2.5 }
+w22=2.49791 opt{ 1.5 to 2.5 }
 S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
 
@@ -83,6 +99,14 @@ IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal5_limit1" 
 SpecLimitLine:"OptimGoal5_limit1" Type="LessThan" Max=1.7 Weight=1 \
 IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
-MLIN2:TL5  N__6 N__16 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-MLIN2:TL6  N__17 N__8 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
-MLIN2:TL7  N__12 0 Subst="MSub1" W=w mm L=l mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+DA_SSMatch1_spmod_LNA:DA_SSMatch1  N__0 N__12 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=(39.053-j*11.162) Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
+MTEE:Tee3  N__27 N__18 N__19 Subst="MSub1" W1=1.915 mm W2=w11 mm W3=w12 mm 
+MLEF2:TL7  N__19 Subst="MSub1" W=w12 mm L=l12 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL8  N__18 N__1 Subst="MSub1" W=w11 mm L=l11 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MTEE:Tee4  N__3 N__22 N__21 Subst="MSub1" W1=w21 mm W2=1.915 mm W3=w22 mm 
+MLEF2:TL9  N__21 Subst="MSub1" W=w22 mm L=l22 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL10  N__22 N__13 Subst="MSub1" W=w21 mm L=l21 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+DA_SSMatch2_spmod_LNA:DA_SSMatch2  N__10 N__23 Subst="MSub1" F=1.45 GHz Zin=50 Ohm Zload=(76.664-j*79.787) Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mm 
+MLIN2:TL11  N__3 N__24 Subst="MSub1" W=1.915 mm L=5 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL12  N__15 N__27 Subst="MSub1" W=1.915 mm L=5 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL13  N__7 0 Subst="MSub1" W=w1 mm L=l1 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 

@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="2" Version="100">
+<ADSWorkspace Revision="3" Version="100">
     <Workspace Name="">
         <Library Name="ads_standard_layers_ic" />
         <Library Name="ads_schematic_layers_ic" />
@@ -17,7 +17,6 @@
         <Library Name="3_lib" />
         <Library Name="RF_Transistors" />
         <Library Name="ads_standard_layers" />
-        <Library Name="adstechlib" />
         <Library Name="ads_schematic_layers" />
         <Library Name="empro_standard_layers" />
         <Library Name="S_Parameter" />
@@ -43,40 +42,9 @@
         <ConfigFile Name="hpeesofsim.cfg" />
         <Dataset Name="__simdata053774.ds" />
         <Cell Name="3_lib:spmod_init" />
-        <Library Name="1xEV" />
-        <Library Name="3GPPFDD" />
-        <Library Name="3GPPFDD_10_99" />
-        <Library Name="Antennas_and_Propagation" />
-        <Library Name="CDMA" />
-        <Library Name="cdma2000" />
-        <Library Name="Circuit_Cosimulation" />
-        <Library Name="CMMB" />
-        <Library Name="Controllers" />
-        <Library Name="DTMB" />
-        <Library Name="DTV" />
-        <Library Name="EDGE" />
-        <Library Name="GSM" />
-        <Library Name="HDL_Blocks" />
-        <Library Name="HSDPA" />
-        <Library Name="HSUPA" />
-        <Library Name="Instruments" />
-        <Library Name="Interactive_Controls_and_Displays" />
-        <Library Name="LTE" />
-        <Library Name="Numeric" />
-        <Library Name="Obsolete" />
-        <Library Name="Signal_Converters" />
-        <Library Name="Simulation_Sequencing" />
-        <Library Name="Sinks" />
-        <Library Name="SystemVue_Cosimulation" />
-        <Library Name="TDSCDMA" />
-        <Library Name="Timed" />
-        <Library Name="UMB" />
-        <Library Name="UWB" />
-        <Library Name="WLAN" />
-        <Library Name="WLAN_11n" />
-        <Library Name="WMAN" />
-        <Library Name="WMAN_16e" />
         <Dataset Name="spmod_init.ds" />
         <Data_Display Name="spmod_init.dds" />
+        <Library Name="ads_pelib" />
+        <Library Name="ads_builtin" />
     </Workspace>
 </ADSWorkspace>

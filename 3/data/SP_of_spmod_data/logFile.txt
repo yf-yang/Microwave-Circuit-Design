@@ -1,0 +1,22 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+
+SP SP1[1] <3_lib:SP_of_spmod:schematic>   freq=(1 GHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.NFmin':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+
+
+Resource usage:
+  Total stopwatch time     =    15.03 seconds.
+

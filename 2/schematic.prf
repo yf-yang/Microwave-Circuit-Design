@@ -41,6 +41,7 @@ foregroundColor 10
 globalArcResolution 5.000000
 selectFilter 1519
 selectMode 1
+shapeSelectMode 2
 selectBoxSize 10.000000
 selectPointSize 8.000000
 entryMode 0
@@ -74,6 +75,7 @@ checkBinding 0
 shoveConnectionsOnCompoenentsParamChange 1
 plotPinNumbers 0
 plotPinNames 0
+plotPinNetNames 0
 plotPins 1
 rerouteWires 1
 traceTlineFamily Microstrip
@@ -108,11 +110,9 @@ placePopupOnZeroParm 0
 autoRepeatableCompPlcmnt 1
 dragMove 1
 dragMoveThresholdSize 6.000000
-dveRealMemory 32
-dveStoragePerArea 2.500000
 dveEpsilon 0.000000
 dveFringe 10.000000
-dveBinWidth 20.000000
+dveArcCircleResolution 5.000000
 dveMaxError 100
 voltageColor 10
 currentColor 6
@@ -140,7 +140,6 @@ plotLessThanMinPixels 1
 plotDepthForLessThanMinPixels 2
 newRouteAroundInstText 0
 dsePrefLayoutLayer default
-dveSortMode 0
 newRouteAroundInstSym 1
 onscreenCoordMode 2
 editInPlaceBoxColor 3
@@ -160,6 +159,7 @@ physicalConnHighlightColor 4
 logicalConnHighlightColor 35
 physicalConnDifferentNetHighlightColor 78
 plotSymbPinAnnot 0
+wrkLayoutPrfIsUninitialized 0
 pathWidth 0.500000
 pathRadius 0.500000
 textHeight 0.125000

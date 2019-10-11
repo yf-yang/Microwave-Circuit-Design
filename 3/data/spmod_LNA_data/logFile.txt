@@ -1,0 +1,43 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+
+8 spare nodes and 6 spare devices are removed.
+The details can be found in file 'E:\Testfield\learn_ADS\Github_synch\3\data\.\spmod_LNA_data\spare_removal.txt'.
+
+
+SP SP1[1] <3_lib:spmod_LNA:schematic>   freq=(100 MHz->5 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.Z_All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP1.CMP1.NFmin':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+
+
+SP SP2[1] <3_lib:spmod_LNA:schematic>   freq=(1.1 GHz->1.8 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP2'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+Resource usage:
+  Total stopwatch time     =    14.83 seconds.
+

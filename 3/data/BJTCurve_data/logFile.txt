@@ -1,0 +1,37 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+
+CT Sweep1[1] <3_lib:BJTCurve:schematic>   IBB=(20e-06->100e-06)
+
+DC Sweep1[1].DC1[1/9] <3_lib:BJTCurve:schematic>  IBB=20e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[2/9] <3_lib:BJTCurve:schematic>  IBB=30e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[3/9] <3_lib:BJTCurve:schematic>  IBB=40e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[4/9] <3_lib:BJTCurve:schematic>  IBB=50e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[5/9] <3_lib:BJTCurve:schematic>  IBB=60e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[6/9] <3_lib:BJTCurve:schematic>  IBB=70e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[7/9] <3_lib:BJTCurve:schematic>  IBB=80e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[8/9] <3_lib:BJTCurve:schematic>  IBB=90e-06  VCE=(0->5)
+...................................................
+
+DC Sweep1[1].DC1[9/9] <3_lib:BJTCurve:schematic>  IBB=100e-06  VCE=(0->5)
+...................................................
+
+Resource usage:
+  Total stopwatch time     =     5.51 seconds.
+

@@ -1,5 +1,7 @@
+; Top Design: "2_lib:filter5_zzs:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="2_lib:filter5:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="2_lib:filter5_zzs:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 MCFIL:CLin6  N__1 N__8 Subst="MSub1" W=w2 mm S=s2 mm L=l2 mm 
 MCFIL:CLin1  N__3 N__7 Subst="MSub1" W=w1 mm S=s1 mm L=l1 mm 
 MCFIL:CLin5  N__8 N__5 Subst="MSub1" W=w1 mm S=s1 mm L=l1 mm 
@@ -8,15 +10,15 @@ model MSub1 MSUB H=1 mm Er=4.4 Mur=1 Cond=5.88e+7 Hu=1.0e+033 mm T=0.03 mm TanD=
 MLIN2:TL1  N__4 N__3 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 MLIN2:TL2  N__5 N__6 Subst="MSub1" W=1.8825 mm L=5 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
 
-w1=0.500147 opt{ 0.5 to 3 }
-w2=1.57479 opt{ 0.5 to 3 }
-w3=2.18063 opt{ 0.5 to 3 }
-l1=30.4229 opt{ 25 to 35 }
-l2=27.581 opt{ 25 to 35 }
-l3=29.7271 opt{ 25 to 35 }
-s1=0.500153 opt{ 0.5 to 3 }
-s2=0.500062 opt{ 0.5 to 3 }
-s3=0.506397 opt{ 0.5 to 3 }
+w1=0.500026 opt{ 0.5 to 3 }
+w2=1.56482 opt{ 0.5 to 3 }
+w3=2.15209 opt{ 0.5 to 3 }
+l1=30.4648 opt{ 25 to 35 }
+l2=27.6427 opt{ 25 to 35 }
+l3=29.598 opt{ 25 to 35 }
+s1=0.500045 opt{ 0.5 to 3 }
+s2=0.500003 opt{ 0.5 to 3 }
+s3=0.506129 opt{ 0.5 to 3 }
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
@@ -32,13 +34,13 @@ OutputPlan:SP1_Output \
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
 
-Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=10000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no 
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=10000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
 
 OptimGoal:OptimGoal3 Expr="db(S(2,2))" SimInstanceName="SP1" Weight=1 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal3_limit1" 
 SpecLimitLine:"OptimGoal3_limit1" Type="LessThan" Max=-23 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+IndepVar[1]="freq" IndepMin[1]=1.42 GHz IndepMax[1]=1.48 GHz 
 OptimGoal:OptimGoal1 Expr="db(S(2,1))" SimInstanceName="SP1" Weight=1 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal1_limit1" SpecLimitLine[2]="OptimGoal1_limit2" SpecLimitLine[3]="OptimGoal1_limit3" 
@@ -52,7 +54,7 @@ OptimGoal:OptimGoal2 Expr="db(S(1,1))" SimInstanceName="SP1" Weight=1 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal2_limit1" 
 SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-23 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=1.4 GHz IndepMax[1]=1.5 GHz 
+IndepVar[1]="freq" IndepMin[1]=1.42 GHz IndepMax[1]=1.48 GHz 
 Port:Term1  N__4 0 Num=1 Z=50 Ohm Noise=yes 
 Port:Term2  N__6 0 Num=2 Z=50 Ohm Noise=yes 
 MCFIL:CLin7  N__10 N__1 Subst="MSub1" W=w3 mm S=s3 mm L=l3 mm 

@@ -1,0 +1,22 @@
+(nil
+    spare_node_list(8)
+       (
+            "DA_SSMatch1.N__0"
+            "DA_SSMatch1.N__2"
+            "DA_SSMatch2.N__0"
+            "DA_SSMatch2.N__2"
+            "N__0"
+            "N__10"
+            "N__12"
+            "N__23"
+        )
+    spare_inst_list(6)
+       (
+            "DA_SSMatch1.TL1"
+            "DA_SSMatch1.TL2"
+            "DA_SSMatch1.Tee1"
+            "DA_SSMatch2.TL1"
+            "DA_SSMatch2.TL2"
+            "DA_SSMatch2.Tee1"
+        )
+)
