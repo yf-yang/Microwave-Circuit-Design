@@ -1,7 +1,6 @@
-<ADSWorkspace Revision="2" Version="100">
+<ADSWorkspace Revision="6" Version="100">
     <Workspace Name="">
         <Library Name="ads_standard_layers" />
-        <Library Name="adstechlib" />
         <Library Name="ads_schematic_layers" />
         <Library Name="empro_standard_layers" />
         <Library Name="ads_standard_layers_ic" />
@@ -53,5 +52,19 @@
         <Dataset Name="filter5_MomRF.ds" />
         <Dataset Name="filter5_MomRF_a.ds" />
         <Data_Display Name="filter5.dds" />
+        <Library Name="ads_builtin" />
+        <Library Name="ads_pelib" />
+        <Cell Name="2_lib:filter7" />
+        <Data_Display Name="filter7.dds" />
+        <Dataset Name="__simdata065773.ds" />
+        <Dataset Name="__simdata066254.ds" />
+        <Dataset Name="__simdata092495.ds" />
+        <Dataset Name="__simdata127814.ds" />
+        <Dataset Name="filter7.ds" />
+        <Dataset Name="filter7_MomRF.ds" />
+        <Dataset Name="filter7_MomRF_a.ds" />
+        <Substrate Name="2_lib:filter7.subst" />
+        <ConfigFile Name="linecalc.cfg" />
+        <Cell Name="2_lib:filter5_zzs" />
     </Workspace>
 </ADSWorkspace>

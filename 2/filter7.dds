@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2019-09-26T07:02:04Z");
+	set(ddoId, "FileModifiedDateAndTime", "2019-10-04T07:45:33Z");
 	set(ddoId, "FileCreatedDateAndTime", "2011-02-04T14:25:47Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -509,7 +509,7 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1299821640);
 // Graphical Object:
-	set(goId0, "Right", 8238);
+	set(goId0, "Right", 8198);
 	set(goId0, "Bottom", 2042);
 	set(goId0, "Left", 6000);
 	set(goId0, "Top", 1875);
@@ -1394,12 +1394,6 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
-// Embedded Expressions:
-	set(goId0, "ComplexNumberFormat", ddsComplexFormatMagPhase);
-	set(goId0, "Format", ddsFormatAutomatic);
-	set(goId0, "NumDigits", 3);
-	set(goId0, "NumDataPoints", 3);
-	set(goId0, "TextDataSeparator", ", ");
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 524902333);
@@ -1424,12 +1418,6 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
-// Embedded Expressions:
-	set(goId0, "ComplexNumberFormat", ddsComplexFormatMagPhase);
-	set(goId0, "Format", ddsFormatAutomatic);
-	set(goId0, "NumDigits", 3);
-	set(goId0, "NumDataPoints", 3);
-	set(goId0, "TextDataSeparator", ", ");
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1255397382);
@@ -2642,6 +2630,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1599891955);
@@ -2666,6 +2655,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 93400632);
@@ -2690,6 +2680,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 240038326);
@@ -2714,6 +2705,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1811323712);
@@ -2738,6 +2730,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 892496997);
@@ -2762,6 +2755,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1956407768);
@@ -2786,6 +2780,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1891722632);
@@ -2810,6 +2805,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 892536526);
@@ -2834,6 +2830,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1506764637);
@@ -2858,6 +2855,7 @@ goId0 = get_new(pageId, "Equation");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
+	set(goId0, "AutoCalculate", TRUE);
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1095338751);
@@ -2882,21 +2880,10 @@ goId0 = get_new(pageId, "Equation");
 
 ddWinId = get_new(ddsId, "Window");
 	set(ddWinId, "Object", ddoId);
-	set(ddWinId, "CurrentPage", 882533170);
+	set(ddWinId, "CurrentPage", 866836642);
+	set(ddWinId, "PageViewRect_866836642", list(-1568, 9652, 13351, 2082));
 	set(ddWinId, "PageViewRect_882533170", list(-6535, 9186, 18192, -2415));
 	set(ddWinId, "Frame", list(-9, -9, 1920, 1001));
-	set(ddWinId, "ForegroundColor", 0);
-	set(ddWinId, "BackgroundColor", 8);
-	set(ddWinId, "WindowPageOrder", list("page 1"));
-
-ddWinId = get_new(ddsId, "Window");
-	set(ddWinId, "Object", ddoId);
-	set(ddWinId, "CurrentPage", 866836642);
-	set(ddWinId, "PageViewRect_1138417399", list(-4, 6675, 13244, -2175));
-	set(ddWinId, "PageViewRect_1914221859", list(-1227, 9039, 10550, 1172));
-	set(ddWinId, "PageViewRect_505789063", list(-1674, 8407, 10024, 593));
-	set(ddWinId, "PageViewRect_866836642", list(-1038, 8657, 10718, 804));
-	set(ddWinId, "Frame", list(184, 129, 655, 510));
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);
 	set(ddWinId, "WindowPageOrder", list("Mag","Phase","Smith Chart","Equations"));

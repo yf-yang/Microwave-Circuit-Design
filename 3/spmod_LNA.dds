@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2019-09-26T06:16:56Z");
+	decl dssId;
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
 	set(ddoId, "DefaultDataset", "spmod_LNA");
@@ -25,18 +25,20 @@ ddoId = get_new(ddsId, "Object");
 	set(ddoId, "SnapGridPerDisplayGridY", 2);
 	set(ddoId, "SnapEnabled", 1);
 	set(ddoId, "SnapAutoSetXY", 1);
+decl pageId;
 	set(ddoId, "EnableExpressionUpdates", FALSE);
 pageId = get(ddoId, "CurrentPage");
 if (pageId == NULL) pageId = get_first(ddoId, "Page");
 if (pageId == NULL) pageId = get_new(ddoId, "Page");
+decl goId0;
 goId0 = get_new(pageId, "Listing");
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1183298974);
 // Graphical Object:
-	set(goId0, "Right", 13810);
-	set(goId0, "Bottom", 7125);
-	set(goId0, "Left", 6000);
+	set(goId0, "Right", 13639);
+	set(goId0, "Bottom", 7750);
+	set(goId0, "Left", 5625);
 	set(goId0, "Top", 2500);
 	set(goId0, "Zrot", 0.000000);
 	set(goId0, "Yrot", 0.000000);
@@ -74,10 +76,11 @@ goId0 = get_new(pageId, "Listing");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 805019582);
+		 set(axisID, "Uid", 2030524338);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -97,10 +100,11 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 67969641);
+		 set(axisID, "Uid", 1625406710);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -120,44 +124,60 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP2.Zin1", "", "");
 // Text trace:
-	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatRealImaginary);
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP2.Zin1");
+		set(traceID, "XaxisName", "");
+		set(traceID, "YaxisName", "");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 1370090487);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP2.Zin2", "", "");
 // Text trace:
-	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatRealImaginary);
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP2.Zin2");
+		set(traceID, "XaxisName", "");
+		set(traceID, "YaxisName", "");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 5);
 		set(traceID, "Uid", 1381254135);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP2.SP.nf(2)", "", "");
 // Text trace:
 	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP2.SP.nf(2)");
+		set(traceID, "XaxisName", "");
+		set(traceID, "YaxisName", "");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 6);
 		set(traceID, "Uid", 1737387661);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP1.StabFact1", "", "");
 // Text trace:
 	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP1.StabFact1");
+		set(traceID, "XaxisName", "");
+		set(traceID, "YaxisName", "");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 4);
 		set(traceID, "Uid", 1743206788);
@@ -167,6 +187,7 @@ traceID = get_new(goId0, "Trace", "SP1.StabFact1", "", "");
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -197,6 +218,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -220,6 +242,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -235,14 +258,15 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -14);
-		 set(axisID, "MaxValue", -4);
+		 set(axisID, "MinValue", -16);
+		 set(axisID, "MaxValue", -6);
 		 set(axisID, "StepSize", 2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -266,6 +290,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -289,9 +314,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(1,1))", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "dB(SP2.SP.S(1,1))");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 603473746);
@@ -328,6 +357,7 @@ traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(1,1))", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
+decl markerID;
 markerID = get_new(traceID, "MarkerNew", "m1", "1400000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
@@ -379,8 +409,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "1400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -7916);
-		set(markerID, "MkrReadoutRight", -5805);
-		set(markerID, "MkrReadoutBottom", 1143);
+		set(markerID, "MkrReadoutRight", -5817);
+		set(markerID, "MkrReadoutBottom", 1131);
 		set(markerID, "MkrReadoutTop", 582);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -444,8 +474,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "1500000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -7916);
-		set(markerID, "MkrReadoutRight", -5819);
-		set(markerID, "MkrReadoutBottom", 475);
+		set(markerID, "MkrReadoutRight", -5817);
+		set(markerID, "MkrReadoutBottom", 463);
 		set(markerID, "MkrReadoutTop", -86);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -461,6 +491,7 @@ markerID = get_new(traceID, "MarkerNew", "m2", "1500000000.000000000000000000000
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -468,8 +499,8 @@ goId0 = get_new(pageId, "Plot");
 // Graphical Object:
 	set(goId0, "Right", 725);
 	set(goId0, "Bottom", 4254);
-	set(goId0, "Left", -3758);
-	set(goId0, "Top", 1183);
+	set(goId0, "Left", -3664);
+	set(goId0, "Top", 1250);
 	set(goId0, "Zrot", 0.000000);
 	set(goId0, "Yrot", 0.000000);
 	set(goId0, "Xrot", 0.000000);
@@ -482,15 +513,16 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 633);
+	set(goId0, "LeftMargin", 539);
 	set(goId0, "RightMargin", 100);
-	set(goId0, "TopMargin", 192);
+	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 504);
 // Plot Title...
 	set(goId0, "Title", "");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -514,6 +546,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -529,14 +562,15 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -20.5);
-		 set(axisID, "MaxValue", -17);
-		 set(axisID, "StepSize", 0.5);
+		 set(axisID, "MinValue", -21);
+		 set(axisID, "MaxValue", -15);
+		 set(axisID, "StepSize", 1);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -560,6 +594,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -583,9 +618,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(1,2))", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "dB(SP2.SP.S(1,2))");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 1737844992);
@@ -622,6 +661,7 @@ traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(1,2))", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
+decl markerID;
 markerID = get_new(traceID, "MarkerNew", "m3", "1400000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
@@ -673,8 +713,8 @@ markerID = get_new(traceID, "MarkerNew", "m3", "1400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -3169);
-		set(markerID, "MkrReadoutRight", -1058);
-		set(markerID, "MkrReadoutBottom", 1143);
+		set(markerID, "MkrReadoutRight", -1070);
+		set(markerID, "MkrReadoutBottom", 1131);
 		set(markerID, "MkrReadoutTop", 582);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -738,8 +778,8 @@ markerID = get_new(traceID, "MarkerNew", "m4", "1500000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -3166);
-		set(markerID, "MkrReadoutRight", -1082);
-		set(markerID, "MkrReadoutBottom", 475);
+		set(markerID, "MkrReadoutRight", -1067);
+		set(markerID, "MkrReadoutBottom", 463);
 		set(markerID, "MkrReadoutTop", -86);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -755,6 +795,7 @@ markerID = get_new(traceID, "MarkerNew", "m4", "1500000000.000000000000000000000
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -785,6 +826,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -808,6 +850,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -824,13 +867,14 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
 		 set(axisID, "MinValue", 8);
-		 set(axisID, "MaxValue", 14);
+		 set(axisID, "MaxValue", 13);
 		 set(axisID, "StepSize", 1);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -854,6 +898,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -877,9 +922,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(2,1))", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "dB(SP2.SP.S(2,1))");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 1744873959);
@@ -916,6 +965,7 @@ traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(2,1))", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
+decl markerID;
 markerID = get_new(traceID, "MarkerNew", "m5", "1400000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
@@ -967,8 +1017,8 @@ markerID = get_new(traceID, "MarkerNew", "m5", "1400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -7791);
-		set(markerID, "MkrReadoutRight", -5734);
-		set(markerID, "MkrReadoutBottom", 5643);
+		set(markerID, "MkrReadoutRight", -5759);
+		set(markerID, "MkrReadoutBottom", 5631);
 		set(markerID, "MkrReadoutTop", 5082);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1032,8 +1082,8 @@ markerID = get_new(traceID, "MarkerNew", "m6", "1500000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -7791);
-		set(markerID, "MkrReadoutRight", -5734);
-		set(markerID, "MkrReadoutBottom", 4975);
+		set(markerID, "MkrReadoutRight", -5759);
+		set(markerID, "MkrReadoutBottom", 4963);
 		set(markerID, "MkrReadoutTop", 4414);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1049,6 +1099,7 @@ markerID = get_new(traceID, "MarkerNew", "m6", "1500000000.000000000000000000000
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -1079,6 +1130,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1102,6 +1154,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1125,6 +1178,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1148,6 +1202,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1171,9 +1226,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(2,2))", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "dB(SP2.SP.S(2,2))");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 1789793212);
@@ -1210,6 +1269,7 @@ traceID = get_new(goId0, "Trace", "dB(SP2.SP.S(2,2))", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
+decl markerID;
 markerID = get_new(traceID, "MarkerNew", "m7", "1400000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
@@ -1261,8 +1321,8 @@ markerID = get_new(traceID, "MarkerNew", "m7", "1400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -3418);
-		set(markerID, "MkrReadoutRight", -1307);
-		set(markerID, "MkrReadoutBottom", 5643);
+		set(markerID, "MkrReadoutRight", -1319);
+		set(markerID, "MkrReadoutBottom", 5631);
 		set(markerID, "MkrReadoutTop", 5082);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1326,8 +1386,8 @@ markerID = get_new(traceID, "MarkerNew", "m8", "1500000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", -3416);
-		set(markerID, "MkrReadoutRight", -1305);
-		set(markerID, "MkrReadoutBottom", 4975);
+		set(markerID, "MkrReadoutRight", -1317);
+		set(markerID, "MkrReadoutBottom", 4963);
 		set(markerID, "MkrReadoutTop", 4414);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1343,6 +1403,7 @@ markerID = get_new(traceID, "MarkerNew", "m8", "1500000000.000000000000000000000
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -1373,6 +1434,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1396,6 +1458,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1411,7 +1474,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 1.2);
+		 set(axisID, "MinValue", 1.1);
 		 set(axisID, "MaxValue", 1.45);
 		 set(axisID, "StepSize", 0.05);
 		 set(axisID, "Logarithmic", FALSE);
@@ -1419,6 +1482,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1442,6 +1506,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1465,9 +1530,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP2.SP.nf(2)", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP2.SP.nf(2)");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 1234348786);
@@ -1504,6 +1573,7 @@ traceID = get_new(goId0, "Trace", "SP2.SP.nf(2)", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
+decl markerID;
 markerID = get_new(traceID, "MarkerNew", "m9", "1400000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
@@ -1555,8 +1625,8 @@ markerID = get_new(traceID, "MarkerNew", "m9", "1400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", 1459);
-		set(markerID, "MkrReadoutRight", 2995);
-		set(markerID, "MkrReadoutBottom", 1268);
+		set(markerID, "MkrReadoutRight", 2983);
+		set(markerID, "MkrReadoutBottom", 1256);
 		set(markerID, "MkrReadoutTop", 707);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1620,8 +1690,8 @@ markerID = get_new(traceID, "MarkerNew", "m10", "1500000000.00000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", 1459);
-		set(markerID, "MkrReadoutRight", 2995);
-		set(markerID, "MkrReadoutBottom", 600);
+		set(markerID, "MkrReadoutRight", 2983);
+		set(markerID, "MkrReadoutBottom", 588);
 		set(markerID, "MkrReadoutTop", 39);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -1637,6 +1707,7 @@ markerID = get_new(traceID, "MarkerNew", "m10", "1500000000.00000000000000000000
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
 goId0 = get_new(pageId, "Plot");
 // Base Class Object:
 	set(goId0, "Name", "");
@@ -1667,6 +1738,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "TitleFont", "Arial For CAE");
 	set(goId0, "TitleFontSize", 140);
 	set(goId0, "TitleColor", 0);
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1690,6 +1762,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1705,14 +1778,15 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 0.4);
-		 set(axisID, "MaxValue", 500);
+		 set(axisID, "MinValue", 0.5);
+		 set(axisID, "MaxValue", 60);
 		 set(axisID, "StepSize", 0.1);
 		 set(axisID, "Logarithmic", TRUE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1736,6 +1810,7 @@ axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl axisID;
 axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 // Axis...
 	if (axisID != NULL) {
@@ -1759,9 +1834,13 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
 		 set(axisID, "Format", ddsFormatAutomatic);
 		 set(axisID, "NumDigits", 3);
 	}
+decl traceID;
 traceID = get_new(goId0, "Trace", "SP1.StabFact1", "X Axis", "Y Axis");
 // Trace:
 	if (traceID != NULL) {
+		set(traceID, "Expression", "SP1.StabFact1");
+		set(traceID, "XaxisName", "X Axis");
+		set(traceID, "YaxisName", "Y Axis");
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
 		set(traceID, "Uid", 45747798);
@@ -1801,6 +1880,31 @@ traceID = get_new(goId0, "Trace", "SP1.StabFact1", "X Axis", "Y Axis");
 	set(goId0, "PlotLogoHideOnOff", FALSE);
 // Initialize plot
 	set(goId0, "InitPlot", 0);
+decl goId0;
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "低频时稳定系数较低，怎么调整?\n尽管做了两边匹配电路，但是并不能达到50Ω的匹配，怎么办？\n\n");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 194);
+	set(goId0, "TextColor", 1);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1915945792);
+// Graphical Object:
+	set(goId0, "Right", 12784);
+	set(goId0, "Bottom", 2276);
+	set(goId0, "Left", 7375);
+	set(goId0, "Top", 1500);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
 // Base Class Object:
 	set(pageId, "Name", "Page 1 : S_Params_Quad_dB_Smith");
 	set(pageId, "Uid", 211228197);
@@ -1811,8 +1915,8 @@ traceID = get_new(goId0, "Trace", "SP1.StabFact1", "X Axis", "Y Axis");
 ddWinId = get_new(ddsId, "Window");
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 211228197);
-	set(ddWinId, "PageViewRect_211228197", list(-12025, 10565, 15465, -2332));
-	set(ddWinId, "Frame", list(-17, -2, 1920, 1001));
+	set(ddWinId, "PageViewRect_211228197", list(-8896, 10167, 14079, -1373));
+	set(ddWinId, "Frame", list(-8, 0, 1918, 991));
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);
 	set(ddWinId, "WindowPageOrder", list("Page 1 : S_Params_Quad_dB_Smith"));
