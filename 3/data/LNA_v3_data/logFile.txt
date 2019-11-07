@@ -1,0 +1,63 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'DC' analysis present.
+
+DC DC1[1] <3_lib:LNA_v3:schematic>  
+.Pt DC convergence is used.
+Warning detected by hpeesofsim during TRAN analysis 'DC1'.
+    In component `Tee3':W_widest > 5.0* W_narrowest
+
+Warning detected by hpeesofsim during TRAN analysis 'DC1'.
+    UserValue(9.344331) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee2'
+
+
+.
+
+DC convergence achieved in 85 iterations.
+
+OPTIM Optim1[1] <3_lib:LNA_v3:schematic>  optIter=(0->500)
+
+SP Optim1[1].SP1[0] <3_lib:LNA_v3:schematic>  optIter=0  freq=(100 MHz->5 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+SP Optim1[1].SP2[0] <3_lib:LNA_v3:schematic>  optIter=0  freq=(1.1 GHz->1.8 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP2'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+Iteration/Trial #0:
+  CurrentEF: 2.35847714275442
+  Optimization variables:
+    l12 = 201.051e-03
+    l13 = 218.966e-03
+    l33 = 1.85056
+    l43 = 2.02611
+    le = 7.74258
+    w12 = 2.3555
+    w13 = 895.446e-03
+    w21 = 2.37346
+    w31 = 9.406879999999999
+    w41 = 1.31266
+    w43 = 1.7614
+    we = 3.16545
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    20.91 seconds.
+

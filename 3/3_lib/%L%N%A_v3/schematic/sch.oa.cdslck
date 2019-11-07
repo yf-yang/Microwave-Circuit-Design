@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hasee
+HostName                       DESKTOP-JQEVVA5
+ProcessIdentifier              14364
+ProcessCreationTime_UTC        1573042294
+ProcessCreationTime_Readable   Wed Nov  6 20:11:34 2019 ?D1迆㊣那℅?那㊣??
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         E:\Testfield\learn_ADS\Github_synch\3\3_lib\%L%N%A_v3\schematic\sch.oa.cdslck
+TimeEditLocked                 Wed Nov  6 20:11:52 2019 ?D1迆㊣那℅?那㊣??
