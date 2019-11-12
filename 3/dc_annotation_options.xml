@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options library="3_lib" cell="LNA_v4_feedback_test" view="schematic" ToggleCurrent="true" ToggleVoltage="true"/>
+</dc_annotation_options>

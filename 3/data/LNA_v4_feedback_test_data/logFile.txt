@@ -1,0 +1,57 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'DC' analysis present.
+
+SP SP1[1] <3_lib:LNA_v4_feedback_test:schematic>   freq=(100 MHz->5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    In component `Tee4':W_widest > 5.0* W_narrowest
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    In component `Tee3':W_widest > 5.0* W_narrowest
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(5.908150) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee2'
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP3.CMP1.All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP3.CMP1.Z_All':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    While evaluating `SNP3.CMP1.NFmin':
+        The provided data file doesn't cover the requested value(s) of `freq'. Therefore the required data was obtained from extrapolation.
+
+
+SP SP2[1] <3_lib:LNA_v4_feedback_test:schematic>   freq=(1.1 GHz->1.8 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP2'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+DC DC1[1] <3_lib:LNA_v4_feedback_test:schematic>  
+.Pt DC convergence is used.
+
+.
+
+DC convergence achieved in 66 iterations.
+
+Resource usage:
+  Total stopwatch time     =     0.57 seconds.
+
