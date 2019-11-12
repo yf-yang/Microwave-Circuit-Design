@@ -1,9 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Schematic view="schematic" width="1920" y1="-9" lib="3_lib" x1="-9" height="1001" geom="1,0,2,94,206,1536,824,1920,1080" cell="LNA_v3"/>
-        <Schematic view="schematic" width="1920" y1="-9" lib="3_lib" x1="-9" height="1001" geom="1,0,2,114,226,1536,824,1920,1080" cell="DC_test"/>
-        <Schematic view="schematic" width="1920" y1="-9" lib="3_lib" x1="-9" height="1001" geom="1,0,2,134,246,1536,824,1920,1080" cell="DC_test_v2"/>
+        <DDS name="LNA_v4_feedback_test.dds"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

@@ -85,7 +85,7 @@ DSEsymbDistanceX 0.500000
 DSEsymbDistanceY 0.500000
 DSEartDistanceXNew 0.000000
 DSElayDistanceYNew 0.000000
-DSES2LReport 1
+DSES2LReport 0
 DSEL2SReport 1
 forceSynchronize 1
 dualPlacement 0
@@ -126,7 +126,7 @@ tuneRange 50.000000
 tuneStepSize 10.000000
 tuneScale 0
 tuneSnap 0
-tuneParameterDisplayLongName 0
+tuneParameterDisplayLongName 1
 optimCockpitUpdateSchematic 1
 optimCockpitSaveState 0
 setPasteOriginPopup 0
