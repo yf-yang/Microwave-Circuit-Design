@@ -1,5 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout cell="filter5_zzs" view="layout" lib="2_lib" x1="-9" width="1920" height="1001" geom="1,0,3,138,145,1536,824,1920,1080" y1="-9"/>
+        <DDS name="filter5_zzs.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

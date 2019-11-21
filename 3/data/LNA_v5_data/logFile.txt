@@ -1,0 +1,666 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim in LinearCollapse '_2_' during analysis.
+    LinearCollapse is disabled because there is 'DC' analysis present.
+
+DC DC1[1] <3_lib:LNA_v5:schematic>  
+.Pt DC convergence is used.
+Warning detected by hpeesofsim during TRAN analysis 'DC1'.
+    In component `Tee3':W_widest > 5.0* W_narrowest
+
+Warning detected by hpeesofsim during TRAN analysis 'DC1'.
+    UserValue(7.411417) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee2'
+
+
+.
+
+DC convergence achieved in 85 iterations.
+
+OPTIM Optim1[1] <3_lib:LNA_v5:schematic>  optIter=(0->5000)
+
+SP Optim1[1].SP1[0] <3_lib:LNA_v5:schematic>  optIter=0  freq=(100 MHz->5 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+SP Optim1[1].SP2[0] <3_lib:LNA_v5:schematic>  optIter=0  freq=(1.1 GHz->1.8 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP2'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+Iteration/Trial #0:
+  CurrentEF: 0.318105323994125
+  Optimization variables:
+    l12 = 5.00106
+    l13 = 5.01845
+    l22 = 5.7
+    l23 = 2
+    l33 = 6.92097
+    l42 = 17.65
+    l43 = 10.0001
+    l53 = 19.62
+    w12 = 1.5
+    w13 = 501.234e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.01369
+    w42 = 2.04
+    w43 = 684.002e-03
+    w53 = 2.01
+    we = 1.35429
+
+SP Optim1[1].SP1[113] <3_lib:LNA_v5:schematic>  optIter=113  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[113] <3_lib:LNA_v5:schematic>  optIter=113  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #113:
+  CurrentEF: 0.297929265004319
+  Optimization variables:
+    l12 = 5.002523858824995
+    l13 = 5.020160899071427
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.922059867039605
+    l42 = 17.66
+    l43 = 10.00326748344758
+    l53 = 19.6
+    w12 = 1.5
+    w13 = 500.7182928976182e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.014506999027248
+    w42 = 2.03
+    w43 = 682.7289617590264e-03
+    w53 = 2
+    we = 1.353414744867137
+
+SP Optim1[1].SP1[119] <3_lib:LNA_v5:schematic>  optIter=119  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[119] <3_lib:LNA_v5:schematic>  optIter=119  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #119:
+  CurrentEF: 0.297905280170877
+  Optimization variables:
+    l12 = 5.003689974249864
+    l13 = 5.023285335240247
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923379938386314
+    l42 = 17.67
+    l43 = 10.00733955210348
+    l53 = 19.59
+    w12 = 1.5
+    w13 = 500.1866802103071e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.015725362542788
+    w42 = 2.03
+    w43 = 677.8606171730159e-03
+    w53 = 1.99
+    we = 1.354696401962684
+
+SP Optim1[1].SP1[284] <3_lib:LNA_v5:schematic>  optIter=284  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[284] <3_lib:LNA_v5:schematic>  optIter=284  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #284:
+  CurrentEF: 0.297890629855143
+  Optimization variables:
+    l12 = 5.003626202505388
+    l13 = 5.023116752465794
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923336079441272
+    l42 = 17.66
+    l43 = 10.0076928123633
+    l53 = 19.58
+    w12 = 1.5
+    w13 = 500.199462525446e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.01559577087864
+    w42 = 2.02
+    w43 = 677.8927259073911e-03
+    w53 = 1.98
+    we = 1.354773122897953
+
+SP Optim1[1].SP1[286] <3_lib:LNA_v5:schematic>  optIter=286  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[286] <3_lib:LNA_v5:schematic>  optIter=286  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #286:
+  CurrentEF: 0.297867704347006
+  Optimization variables:
+    l12 = 5.003567041000831
+    l13 = 5.023001432272723
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923281504887749
+    l42 = 17.66
+    l43 = 10.0082912077963
+    l53 = 19.58
+    w12 = 1.5
+    w13 = 500.407211606132e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.015336956325697
+    w42 = 2.02
+    w43 = 678.0811730343796e-03
+    w53 = 1.97
+    we = 1.354792185397663
+
+SP Optim1[1].SP1[291] <3_lib:LNA_v5:schematic>  optIter=291  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[291] <3_lib:LNA_v5:schematic>  optIter=291  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #291:
+  CurrentEF: 0.297865971701114
+  Optimization variables:
+    l12 = 5.003636162816447
+    l13 = 5.022586849051594
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923321453603409
+    l42 = 17.66
+    l43 = 10.00863469660025
+    l53 = 19.58
+    w12 = 1.5
+    w13 = 500.4302835591302e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.015057848619707
+    w42 = 2.02
+    w43 = 678.2319044718276e-03
+    w53 = 1.97
+    we = 1.354889232528528
+
+SP Optim1[1].SP1[421] <3_lib:LNA_v5:schematic>  optIter=421  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[421] <3_lib:LNA_v5:schematic>  optIter=421  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #421:
+  CurrentEF: 0.297856255939058
+  Optimization variables:
+    l12 = 5.003540321409697
+    l13 = 5.023120681666086
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.925095371751766
+    l42 = 17.65
+    l43 = 10.01013310607916
+    l53 = 19.58
+    w12 = 1.5
+    w13 = 501.0818470831324e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016250407697357
+    w42 = 2.02
+    w43 = 678.1175450691372e-03
+    w53 = 1.96
+    we = 1.356084579637664
+
+SP Optim1[1].SP1[431] <3_lib:LNA_v5:schematic>  optIter=431  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[431] <3_lib:LNA_v5:schematic>  optIter=431  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #431:
+  CurrentEF: 0.297809157509032
+  Optimization variables:
+    l12 = 5.00263192739398
+    l13 = 5.024262650542284
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.924308152384134
+    l42 = 17.64
+    l43 = 10.00909147816433
+    l53 = 19.58
+    w12 = 1.5
+    w13 = 501.3653062650315e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016394725071058
+    w42 = 2.02
+    w43 = 677.1734105909766e-03
+    w53 = 1.95
+    we = 1.356915986306283
+
+SP Optim1[1].SP1[597] <3_lib:LNA_v5:schematic>  optIter=597  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[597] <3_lib:LNA_v5:schematic>  optIter=597  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #597:
+  CurrentEF: 0.297806498868169
+  Optimization variables:
+    l12 = 5.002673651550143
+    l13 = 5.02354167851316
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.924099233156144
+    l42 = 17.63
+    l43 = 10.00819206281415
+    l53 = 19.57
+    w12 = 1.5
+    w13 = 500.9906197641143e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016314268484344
+    w42 = 2.01
+    w43 = 677.3542956792286e-03
+    w53 = 1.95
+    we = 1.357009260593745
+
+SP Optim1[1].SP1[742] <3_lib:LNA_v5:schematic>  optIter=742  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[742] <3_lib:LNA_v5:schematic>  optIter=742  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #742:
+  CurrentEF: 0.297763222779269
+  Optimization variables:
+    l12 = 5.003361549400971
+    l13 = 5.019986046616641
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.924347228832429
+    l42 = 17.63
+    l43 = 10.009377173815
+    l53 = 19.56
+    w12 = 1.5
+    w13 = 500.2474594406183e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016357491608821
+    w42 = 2
+    w43 = 677.5644643148162e-03
+    w53 = 1.94
+    we = 1.357579775298176
+
+SP Optim1[1].SP1[745] <3_lib:LNA_v5:schematic>  optIter=745  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[745] <3_lib:LNA_v5:schematic>  optIter=745  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #745:
+  CurrentEF: 0.297740029772503
+  Optimization variables:
+    l12 = 5.003304137818653
+    l13 = 5.020713880633778
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.924342604271194
+    l42 = 17.62
+    l43 = 10.00954360772889
+    l53 = 19.55
+    w12 = 1.5
+    w13 = 500.294667750552e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016587961343563
+    w42 = 2
+    w43 = 677.9431292961988e-03
+    w53 = 1.94
+    we = 1.35789546824318
+
+SP Optim1[1].SP1[890] <3_lib:LNA_v5:schematic>  optIter=890  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[890] <3_lib:LNA_v5:schematic>  optIter=890  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #890:
+  CurrentEF: 0.297710637638052
+  Optimization variables:
+    l12 = 5.003083332749676
+    l13 = 5.020154951252569
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.92390129596324
+    l42 = 17.62
+    l43 = 10.01106852822017
+    l53 = 19.55
+    w12 = 1.5
+    w13 = 500.4527220461106e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016742377389756
+    w42 = 2
+    w43 = 678.1366079381784e-03
+    w53 = 1.93
+    we = 1.358484623239814
+
+SP Optim1[1].SP1[1021] <3_lib:LNA_v5:schematic>  optIter=1021  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1021] <3_lib:LNA_v5:schematic>  optIter=1021  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1021:
+  CurrentEF: 0.297701974315171
+  Optimization variables:
+    l12 = 5.003220229780736
+    l13 = 5.016595155675942
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923234139491123
+    l42 = 17.61
+    l43 = 10.00949042471676
+    l53 = 19.54
+    w12 = 1.5
+    w13 = 500.5223805267863e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016872977587984
+    w42 = 1.99
+    w43 = 678.3440306954799e-03
+    w53 = 1.93
+    we = 1.358101173279381
+
+SP Optim1[1].SP1[1048] <3_lib:LNA_v5:schematic>  optIter=1048  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1048] <3_lib:LNA_v5:schematic>  optIter=1048  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1048:
+  CurrentEF: 0.297696457461857
+  Optimization variables:
+    l12 = 5.003201271606857
+    l13 = 5.016482155138629
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923135013889084
+    l42 = 17.6
+    l43 = 10.00972678274223
+    l53 = 19.53
+    w12 = 1.5
+    w13 = 500.5947377604832e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016826345377202
+    w42 = 1.98
+    w43 = 678.4165417724968e-03
+    w53 = 1.92
+    we = 1.358025003127227
+
+SP Optim1[1].SP1[1194] <3_lib:LNA_v5:schematic>  optIter=1194  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1194] <3_lib:LNA_v5:schematic>  optIter=1194  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1194:
+  CurrentEF: 0.297658181787301
+  Optimization variables:
+    l12 = 5.003023957578565
+    l13 = 5.016962471518469
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923206844915089
+    l42 = 17.6
+    l43 = 10.00904638981997
+    l53 = 19.52
+    w12 = 1.5
+    w13 = 500.7480662909485e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016801488766299
+    w42 = 1.98
+    w43 = 678.4664671023526e-03
+    w53 = 1.91
+    we = 1.358050260631626
+
+SP Optim1[1].SP1[1476] <3_lib:LNA_v5:schematic>  optIter=1476  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1476] <3_lib:LNA_v5:schematic>  optIter=1476  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1476:
+  CurrentEF: 0.297635315374339
+  Optimization variables:
+    l12 = 5.00282370548138
+    l13 = 5.015976711898515
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923218024008828
+    l42 = 17.6
+    l43 = 10.01050329713954
+    l53 = 19.52
+    w12 = 1.5
+    w13 = 500.5049020423563e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016767103213997
+    w42 = 1.98
+    w43 = 678.3383477166012e-03
+    w53 = 1.91
+    we = 1.357488192449927
+
+SP Optim1[1].SP1[1796] <3_lib:LNA_v5:schematic>  optIter=1796  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1796] <3_lib:LNA_v5:schematic>  optIter=1796  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1796:
+  CurrentEF: 0.297624592486458
+  Optimization variables:
+    l12 = 5.002612740236908
+    l13 = 5.01614640145878
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923368956897197
+    l42 = 17.59
+    l43 = 10.01009887899479
+    l53 = 19.51
+    w12 = 1.5
+    w13 = 500.4668347650413e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.016618087934232
+    w42 = 1.97
+    w43 = 678.4283082217014e-03
+    w53 = 1.9
+    we = 1.357552301570307
+
+SP Optim1[1].SP1[1927] <3_lib:LNA_v5:schematic>  optIter=1927  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[1927] <3_lib:LNA_v5:schematic>  optIter=1927  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #1927:
+  CurrentEF: 0.29762158086171
+  Optimization variables:
+    l12 = 5.002823385864771
+    l13 = 5.011715140525673
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.923341013586481
+    l42 = 17.59
+    l43 = 10.01000453474941
+    l53 = 19.51
+    w12 = 1.5
+    w13 = 500.240118753845e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.015488873396734
+    w42 = 1.96
+    w43 = 677.5971626759623e-03
+    w53 = 1.9
+    we = 1.357393002721792
+
+SP Optim1[1].SP1[2068] <3_lib:LNA_v5:schematic>  optIter=2068  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[2068] <3_lib:LNA_v5:schematic>  optIter=2068  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #2068:
+  CurrentEF: 0.297479990536566
+  Optimization variables:
+    l12 = 5.002464336387989
+    l13 = 5.004083955038639
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.925392743361159
+    l42 = 17.58
+    l43 = 10.01051487012709
+    l53 = 19.51
+    w12 = 1.5
+    w13 = 500.2496814568763e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.013461639421574
+    w42 = 1.96
+    w43 = 676.5413034082285e-03
+    w53 = 1.89
+    we = 1.357060272826376
+
+SP Optim1[1].SP1[2072] <3_lib:LNA_v5:schematic>  optIter=2072  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[2072] <3_lib:LNA_v5:schematic>  optIter=2072  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #2072:
+  CurrentEF: 0.297394042633226
+  Optimization variables:
+    l12 = 5.000750564243651
+    l13 = 5.002664967018274
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.926093903803221
+    l42 = 17.58
+    l43 = 10.00303980850451
+    l53 = 19.51
+    w12 = 1.5
+    w13 = 500.2483019925381e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.012502287079508
+    w42 = 1.96
+    w43 = 675.9201267892785e-03
+    w53 = 1.88
+    we = 1.35553658999964
+
+SP Optim1[1].SP1[2081] <3_lib:LNA_v5:schematic>  optIter=2081  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[2081] <3_lib:LNA_v5:schematic>  optIter=2081  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #2081:
+  CurrentEF: 0.297383299948866
+  Optimization variables:
+    l12 = 5.000876127323602
+    l13 = 5.003560194475731
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.925831850966551
+    l42 = 17.58
+    l43 = 10.00660112413809
+    l53 = 19.5
+    w12 = 1.5
+    w13 = 500.7148501805201e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.012445777374559
+    w42 = 1.96
+    w43 = 676.0766583622169e-03
+    w53 = 1.87
+    we = 1.355565304531938
+
+SP Optim1[1].SP1[2540] <3_lib:LNA_v5:schematic>  optIter=2540  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[2540] <3_lib:LNA_v5:schematic>  optIter=2540  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #2540:
+  CurrentEF: 0.297382551194474
+  Optimization variables:
+    l12 = 5.000898958430889
+    l13 = 5.003279503392937
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.925800651886366
+    l42 = 17.58
+    l43 = 10.0062495721034
+    l53 = 19.5
+    w12 = 1.5
+    w13 = 500.772212319082e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.012316098091957
+    w42 = 1.96
+    w43 = 676.1009167561582e-03
+    w53 = 1.87
+    we = 1.355628214843726
+
+SP Optim1[1].SP1[2542] <3_lib:LNA_v5:schematic>  optIter=2542  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[2542] <3_lib:LNA_v5:schematic>  optIter=2542  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #2542:
+  CurrentEF: 0.297364149809055
+  Optimization variables:
+    l12 = 5.000952981178199
+    l13 = 5.002995962946085
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.925824938409225
+    l42 = 17.58
+    l43 = 10.00622211880116
+    l53 = 19.49
+    w12 = 1.5
+    w13 = 500.7537419948563e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.012314888247931
+    w42 = 1.96
+    w43 = 676.1358794996405e-03
+    w53 = 1.87
+    we = 1.355641213347295
+
+SP Optim1[1].SP1[4317] <3_lib:LNA_v5:schematic>  optIter=4317  freq=(100 MHz->5 GHz)
+
+
+SP Optim1[1].SP2[4317] <3_lib:LNA_v5:schematic>  optIter=4317  freq=(1.1 GHz->1.8 GHz)
+
+Iteration/Trial #4317:
+  CurrentEF: 0.297351242346343
+  Optimization variables:
+    l12 = 5.000961641934903
+    l13 = 5.004358937159195
+    l22 = 5.69
+    l23 = 2
+    l33 = 6.92550893009284
+    l42 = 17.58
+    l43 = 10.01041035082379
+    l53 = 19.48
+    w12 = 1.5
+    w13 = 500.2728799704474e-03
+    w22 = 1
+    w23 = 1
+    w41 = 2.013778223422401
+    w42 = 1.96
+    w43 = 676.1137619016312e-03
+    w53 = 1.87
+    we = 1.355880869708596
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =   126.46 seconds.
+

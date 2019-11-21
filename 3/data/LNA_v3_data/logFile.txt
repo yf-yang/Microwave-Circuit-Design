@@ -41,5 +41,5 @@ DC DC1[1] <3_lib:LNA_v3:schematic>
 DC convergence achieved in 85 iterations.
 
 Resource usage:
-  Total stopwatch time     =     0.53 seconds.
+  Total stopwatch time     =     0.54 seconds.
 

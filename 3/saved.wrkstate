@@ -1,7 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <DDS name="LNA_v4_feedback_test.dds"/>
+        <Layout geom="1,0,1,129,107,1536,824,1920,1080" y1="107" height="824" view="layout" width="1536" cell="LNA_v4_feedback_test" lib="3_lib" x1="129"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
