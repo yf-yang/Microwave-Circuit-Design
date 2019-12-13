@@ -41,5 +41,5 @@ Warning detected by hpeesofsim during SP analysis `SP1'.
 
 
 Resource usage:
-  Total stopwatch time     =     0.53 seconds.
+  Total stopwatch time     =     2.27 seconds.
 
