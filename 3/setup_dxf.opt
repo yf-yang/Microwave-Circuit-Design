@@ -17,7 +17,7 @@
         <AutoMerge>0</AutoMerge>
         <ImportNegativeLayerAsSlotLayer>0</ImportNegativeLayerAsSlotLayer>
         <CreateComponentsInFolder>1</CreateComponentsInFolder>
-        <SelectedDesignName></SelectedDesignName>
+        <SelectedDesignName />
         <PathsAsPolygons>1</PathsAsPolygons>
         <VectorizeText>0</VectorizeText>
         <LayerStackup>1</LayerStackup>
@@ -31,6 +31,23 @@
         <AutocadVersion>Autocad 2004</AutocadVersion>
         <PathsAsPolygons>1</PathsAsPolygons>
         <HoleFormat>Holes As Cutlines</HoleFormat>
-        <Layers />
+        <Layers>
+            <Layer EecadLayer="bond" AdsLayer="bond:drawing" Transfer="0" />
+            <Layer EecadLayer="cond" AdsLayer="cond:drawing" Transfer="1" />
+            <Layer EecadLayer="leads" AdsLayer="leads:drawing" Transfer="0" />
+            <Layer EecadLayer="packages" AdsLayer="packages:drawing" Transfer="0" />
+            <Layer EecadLayer="solder_mask" AdsLayer="solder_mask:drawing" Transfer="0" />
+        </Layers>
+        <Unit>mil</Unit>
+        <Flatten>0</Flatten>
+        <AutoMerge>0</AutoMerge>
+        <ImportNegativeLayerAsSlotLayer>0</ImportNegativeLayerAsSlotLayer>
+        <CreateComponentsInFolder>1</CreateComponentsInFolder>
+        <SelectedDesignName></SelectedDesignName>
+        <VectorizeText>0</VectorizeText>
+        <LayerStackup>1</LayerStackup>
+        <Polarity />
+        <Nets />
+        <Components />
     </Export>
 </AdsTranslatorSetupFile>

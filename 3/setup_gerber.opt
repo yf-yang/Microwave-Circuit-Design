@@ -24,11 +24,11 @@
         <PathsAsPolygons>0</PathsAsPolygons>
         <HoleFormat>Holes As Cutlines</HoleFormat>
         <Layers>
-            <Layer EecadLayer="bond:drawing" AdsLayer="bond:drawing" Transfer="1" />
+            <Layer EecadLayer="bond:drawing" AdsLayer="bond:drawing" Transfer="0" />
             <Layer EecadLayer="cond:drawing" AdsLayer="cond:drawing" Transfer="1" />
-            <Layer EecadLayer="leads:drawing" AdsLayer="leads:drawing" Transfer="1" />
-            <Layer EecadLayer="packages:drawing" AdsLayer="packages:drawing" Transfer="1" />
-            <Layer EecadLayer="solder_mask:drawing" AdsLayer="solder_mask:drawing" Transfer="1" />
+            <Layer EecadLayer="leads:drawing" AdsLayer="leads:drawing" Transfer="0" />
+            <Layer EecadLayer="packages:drawing" AdsLayer="packages:drawing" Transfer="0" />
+            <Layer EecadLayer="solder_mask:drawing" AdsLayer="solder_mask:drawing" Transfer="0" />
         </Layers>
         <SingleFileFilename></SingleFileFilename>
         <DrillLayers />

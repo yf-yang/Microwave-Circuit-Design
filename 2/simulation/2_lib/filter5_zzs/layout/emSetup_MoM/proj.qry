@@ -1,0 +1,16 @@
+#Momentum: B.2020.00.283 (*) built: Jul 17 2019 
+#Momentum Date and Time: Thu Nov 21 14:40:17 2019
+
+Overall database status : 0 (no file present)
+
+Frequency range : from 0 GHz to 0 GHz.
+
+Requested frequency range : from 0.005703500759 GHz to 0.005936296708 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 0
+ Substrates match        : 0
+ Frequency-range matches : 0
+
+Corresponding potentialpath : C:\Program Files\Keysight\ADS2020\Momentum\2020.00/
+Corresponding potentialname : 
